@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "Shayan Jannati"
   avatar : "/assets/images/Portfolio_Picture.jpeg"
-  bio    : "Ph.D. in Mechanical Engineering (UBC) specializing in design, prototyping, and development of biomedical devices, with expertise in mechatronics, experimental testing, and advanced manufacturing methods."
+  bio    : "Ph.D. in Mechanical Engineering (UBC), interested in biomedical devices and mechatronics"
   links:
    # - label: "Website"
    #   icon: "fas fa-fw fa-link"
