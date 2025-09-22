@@ -114,38 +114,3 @@ tag_archive:
   type: liquid
   path: /tags/
 
-
-
-
-
-
-
-  title: Shayan Jannati Portfolio
-description: "Portfolio of Shayan Jannati, Ph.D. in Mechanical Engineering (UBC), working on biomedical devices, hiPSC-CM research, and mechatronics projects."
-remote_theme: mmistakes/minimal-mistakes
-include:
-  - _pages
-collections:
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-  - jekyll-include-cache
-header_pages:
-  - title: "Portfolio"
-    url: /portfolio/
-nav:
-  main:
-    - title: "Home"
-      url: /
-    - title: "About"
-      url: /about/
-    - title: "Portfolio"
-      url: /portfolio/
-    - title: "CV"
-      url: /cv/
