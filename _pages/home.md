@@ -11,14 +11,14 @@ hero:
 
 # About Me
 
-Hi, I'm **Shayan Jannati**, a Ph.D. graduate in Mechanical Engineering (UBC) specializing in **biomedical devices, hiPSC-CM research, and mechatronics**.  
-Check out my [projects portfolio](/portfolio/) to see the work I’ve done in R&D, microfabrication, and computational modeling.
+Hi, I'm **Shayan Jannati**, a Ph.D. graduate in Mechanical Engineering (UBC), specializing in **biomedical devices, hiPSC-CM research, and mechatronics**.  
+Check out my [projects portfolio](/portfolio/) to see my work.
 
 ---
 
 # My Projects
 
-Below are some of my recent projects. Click on any project to see the full details:
+Below are some of my recent projects. Click any project to see details:
 
 <ul>
   {% for project in site.portfolio %}
