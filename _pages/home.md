@@ -30,3 +30,4 @@ Below are some of my recent projects. Click any project to see details:
     </li>
   {% endfor %}
 </ul>
+
