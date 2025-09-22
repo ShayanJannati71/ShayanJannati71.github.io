@@ -1,7 +1,7 @@
 ---
-layout: collection
-title: "Home"
-collection: portfolio
+layout: archive
+title: "Portfolio"
 permalink: /portfolio/
-entries_layout: single
+collection: portfolio
 ---
+
