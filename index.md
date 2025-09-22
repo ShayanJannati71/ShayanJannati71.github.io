@@ -5,3 +5,9 @@
 layout: home
 author_profile: true
 ---
+Ph.D. in Mechanical Engineering (UBC) specializing in design, prototyping, and development of biomedical devices, with expertise in mechatronics, experimental testing, and advanced manufacturing methods.
+
+
+- Project 1
+- Project 2
+- Project 3
