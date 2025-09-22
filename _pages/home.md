@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "Welcome"
+title: "Home"
 permalink: /
 hero:
   image: "/assets/images/Portfolio_Picture.jpeg"   # optional profile or background image
