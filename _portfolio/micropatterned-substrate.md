@@ -9,4 +9,4 @@ header:
 
 **Outcome:** Improved alignment and stronger contractions (Published in *Acta Biomaterialia*).  
 
-![Micropatterned Substrate](/assets/images/micropatterned-example.png)
+![Micropatterned Substrate](/assets/images/TFM-37.png)
