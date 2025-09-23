@@ -1,12 +1,37 @@
 ---
 title: "Fabrication of Soft Micropatterned Substrate"
-excerpt: "Supporting maturation of lab-grown cardiac cells (Published in Acta Biomaterialia)."
+excerpt: "Engineered a soft micropatterned platform to enhance structural and functional maturation of lab-grown cardiomyocytes."
 header:
   image: /assets/images/micropatterned.jpg
+  caption: "Micropatterned substrate guiding cardiomyocyte alignment."
 ---
 
-**Objective:** Develop a soft micropatterned substrate to support maturation of hiPSC-derived cardiomyocytes.  
+## Overview
+Developing in vitro models that faithfully mimic native cardiac tissue remains a major challenge.  
+This project focused on creating a **soft micropatterned substrate** to guide the alignment and maturation of human induced pluripotent stem cell–derived cardiomyocytes (hiPSC-CMs).  
 
-**Outcome:** Improved alignment and stronger contractions (Published in *Acta Biomaterialia*).  
+---
 
-![Micropatterned Substrate](/assets/images/TFM-37.png)
+## Approach
+- Designed and fabricated a **transparent PDMS-based micropatterned substrate** with tunable stiffness.  
+- Cultured hiPSC-CMs on both **patterned** and **unpatterned** surfaces.  
+- Evaluated **structural organization** and **functional contractility** using live-cell imaging and quantitative analysis.  
+
+---
+
+## Key Outcomes
+- **Enhanced alignment** of cardiomyocytes on patterned substrates compared to controls.  
+- **Improved contractile strength and synchronization**, supporting more physiologically relevant cardiac models.  
+- Findings published in *Acta Biomaterialia*.  
+
+---
+
+## Impact
+This platform provides researchers with a reproducible method to improve the maturity of stem cell–derived heart cells.  
+It enables more accurate **disease modeling**, **drug testing**, and **cardiac tissue engineering** applications.  
+
+---
+
+![Micropatterned Substrate Example](/assets/images/TFM-37.png)
+
+> *Reference: Published in Acta Biomaterialia, 2023.*
