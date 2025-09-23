@@ -2,7 +2,9 @@
 layout: single
 title: "Hyperelastic Modeling of Soft Elastomeric Substrates"
 excerpt: "Characterizing soft elastomers using uniaxial testing and hyperelastic models."
+image: /assets/images/Uniaxial_Testing_1.png
 ---
+
 
 
 <img src="/assets/images/Uniaxial_Testing_1.png" alt="Uniaxial Testing of Soft Elastomer 2" width="600"/>
