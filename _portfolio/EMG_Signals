@@ -1,20 +1,36 @@
 ---
 layout: single
-title: "EMG Signal Processing to Detect Locomotion Modes"
+title: "EMG Signal Processing to Detect Locomotion Modes and Knee Angle Estimation"
 excerpt: "To classify different locomotion modes using Electromyography (EMG) signals through Support Vector Machines (SVM), enabling precise and adaptive control of prosthetic devices."
 ---
 ## Objective
-To classify different locomotion modes using Electromyography (EMG) signals through Support Vector Machines (SVM), enabling precise and adaptive control of prosthetic devices.
-
+The primary objective of this study was to estimate knee joint kinematics using surface electromyography (sEMG) signals. By leveraging neural network–based modeling, the aim was to establish a reliable, non-invasive approach for predicting knee joint angles that could support applications in rehabilitation, prosthetics, and human–machine interaction.
 
 ## Methods
+## Knee Joint Kinematics Estimation Using sEMG
+
+### Objectives  
+The objective of this project was to estimate knee joint kinematics using surface electromyography (sEMG) signals. By employing neural network–based modeling, the goal was to develop a reliable, non-invasive method for predicting knee joint angles to support applications in rehabilitation, prosthetics, and human–machine interaction.  
+
+### Methods  
+- **Signal Acquisition & Processing:** sEMG signals were acquired and pre-processed through filtering and normalization.  
+- **Segmentation & Feature Extraction:** Time-series sEMG data were segmented, and key features were extracted.  
+- **Model Development:** A Time-Delay Artificial Neural Network (TDANN) was implemented to capture the nonlinear relationship between sEMG inputs and knee joint angles. Different delay parameters and neuron counts were tested to optimize performance.  
+- **Evaluation:** Model performance was evaluated using the coefficient of determination ($R^2$). Experiments analyzed the effect of varying the number of delays and neurons on estimation accuracy.  
+
+### Outcomes  
+- Increasing the number of delays reduced predictive accuracy, emphasizing the importance of selecting an optimal temporal window.  
+- The best performance was achieved with approximately 60 neurons, yielding $R^2 \approx 0.85$ for knee angle prediction.  
+- Predicted knee angle trajectories showed strong agreement with the target angles after filtering, demonstrating the robustness of the TDANN approach.  
+
+![Workflow of knee joint kinematics estimation using surface EMG and TDANN, along with model evaluation results.](/assets/images/EMG_3.png)
 
 
+<img src="/assets/images/EMG_1.png" alt="Uniaxial Testing of Soft Elastomer 2" width="600"/>
 
-<img src="/assets/images/EMG1.png" alt="Uniaxial Testing of Soft Elastomer 2" width="600"/>
-*Figure 2: Uniaxial test results and fitting of experimental data using three hyperelastic models. (A) RMSE criteria for fitting the experimental data with three different hyperelastic models: Neo-Hookean, Mooney-Rivlin, and One-term Ogden, across three different PDMS formulations: Soft PDMS 527, Stiff PDMS 10:1 (527:184), and PDMS 5:1 (527:184). The One-term Ogden model is considered to have the lowest RMSE.*
+<img src="/assets/images/EMG_2.png" alt="Uniaxial Testing of Soft Elastomer 2" width="600"/>
 
-
+<img src="/assets/images/EMG_3.png" alt="Uniaxial Testing of Soft Elastomer 2" width="600"/>
 
 ## Outcome
 
