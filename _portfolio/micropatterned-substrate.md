@@ -6,6 +6,8 @@ header:
   caption: "Micropatterned substrate guiding cardiomyocyte alignment."
 categories: [Cardiac, Tissue Engineering]
 tags: [hiPSC-CM, microfabrication, biomaterials]
+layout: single
+
 ---
 
 ## Overview
