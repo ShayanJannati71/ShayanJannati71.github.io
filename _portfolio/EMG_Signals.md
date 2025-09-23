@@ -1,50 +1,66 @@
 ---
-layour: single
-title: "EMG Signals: Preprocessing & Feature Extraction"
-date: 2025-09-23
-categories: [signal‐processing, EMG, machine-learning]
-tags: [EMG, filtering, Python, features]
-excerpt: "Analysis of raw EMG signals, preprocessing and features extraction insights."
+layout: single
+title: "EMG Signal Processing for Locomotion Classification and Knee Angle Estimation"
+categories: [signal-processing, EMG, machine-learning]
+tags: [EMG, locomotion, prosthetics, neural-networks, SVM, Python]
+excerpt: "Developed machine learning and neural network models to classify locomotion modes and estimate knee joint kinematics from EMG signals, enabling adaptive prosthetic control and rehabilitation applications."
 ---
 
-
 ## Objectives  
-This project leveraged surface electromyography (sEMG) signals for two primary goals:  
-1. Classifying different locomotion modes using machine learning techniques, specifically Support Vector Machines (SVM).  
-2. Estimating knee joint kinematics using neural network–based modeling, providing a reliable, non-invasive approach for prosthetic control, rehabilitation, and human–machine interaction.  
+This project utilized surface electromyography (sEMG) signals with two primary goals:  
+1. **Locomotion Classification** – Using Support Vector Machines (SVM) to identify walking modes.  
+2. **Knee Joint Angle Estimation** – Applying a Time-Delay Artificial Neural Network (TDANN) to predict joint kinematics as a non-invasive solution for prosthetic control, rehabilitation, and human–machine interaction.  
+
+---
 
 ## Methods  
-- **Signal Acquisition & Processing:** sEMG signals were collected from multiple muscles (Rectus Femoris, Vastus Lateralis, Vastus Medialis, and Biceps Femoris) and pre-processed using filtering and normalization.
 
-**sEMG Signals Aquisition experimental setup for data aquisition**
+### Signal Acquisition & Processing  
+sEMG signals were collected from the **Rectus Femoris, Vastus Lateralis, Vastus Medialis, and Biceps Femoris** muscles. Signals were filtered, normalized, and synchronized with **IMU sensors** attached near the knee joint.  
 
-<img src="/assets/images/EMG_5.png" alt="sEMG signals Experimental" width="600"/>  
-*Figure 1: Example sEMG signals collected from major lower limb muscles during locomotion tasks.*
+<img src="/assets/images/EMG_Data_Acquisition.png" alt="sEMG and IMU data acquisition setup" width="600"/>  
+*Figure 1: Experimental setup showing electrode placement, IMU sensor attachment, and data acquisition hardware.*  
 
-**sEMG Signals from Lower Limb Muscles**  
-<img src="/assets/images/EMG_1.png" alt="sEMG signals from Rectus Femoris, Vastus Lateralis, Vastus Medialis, and Biceps Femoris" width="600"/>  
-*Figure 1: pure sEMG signals and teh IMU data collected at the ame time.*
+<img src="/assets/images/EMG_Raw_Data.png" alt="Raw sEMG and IMU signals" width="600"/>  
+*Figure 2: Example of raw sEMG signals (four muscles) with synchronized IMU data from the knee joint.*  
 
-- **Segmentation & Feature Extraction:** Time-series EMG data were segmented, and relevant temporal and statistical features were extracted.
+---
 
-**Locomotion Mode Classification Using SVM**  
-<img src="/assets/images/EMG_2.png" alt="Locomotion Mode Classification using SVM" width="600"/>  
-*Figure 2: Confusion matrix showing SVM classification accuracy across multiple locomotion modes.*
+### Segmentation & Feature Extraction  
+The time-series data were segmented into windows, and statistical and temporal features were extracted for classification and regression tasks.  
 
-**TDANN Workflow and Knee Angle Estimation Results**  
-<img src="/assets/images/EMG_3.png" alt="Workflow of knee joint kinematics estimation using TDANN" width="600"/>  
-*Figure 3: Workflow for knee joint kinematics estimation from sEMG using TDANN, along with predicted vs. actual knee angle trajectories.*
- 
-- **Model Development:**  
-  - **Locomotion Classification:** SVM was used to classify locomotion modes.  
-  - **Kinematics Estimation:** A Time-Delay Artificial Neural Network (TDANN) was designed to capture nonlinear relationships between sEMG inputs and knee joint angles.  
-- **Evaluation:** Model performance was assessed using the coefficient of determination ($R^2$), examining the influence of varying time delays and neuron counts on predictive accuracy.  
+---
+
+### Locomotion Classification (SVM)  
+A Support Vector Machine (SVM) model was trained to classify locomotion modes based on extracted features.  
+
+<img src="/assets/images/EMG_Workflow_Locomotion_Mode.png" alt="Workflow for locomotion classification using SVM" width="600"/>  
+*Figure 3: Workflow for locomotion mode classification using sEMG features and SVM.*  
+
+<img src="/assets/images/EMG_Confusion_Matrix.png" alt="Confusion matrix for SVM classification" width="600"/>  
+*Figure 4: Confusion matrix illustrating classification performance across locomotion modes.*  
+
+---
+
+### Knee Joint Angle Estimation (TDANN)  
+A Time-Delay Artificial Neural Network (TDANN) was implemented to capture nonlinear relationships between sEMG signals and knee joint angles. Different neuron counts and delay parameters were tested to optimize predictive accuracy.  
+
+<img src="/assets/images/EMG_Knee_Angle_Estimation.png" alt="Workflow and results for knee joint angle estimation using TDANN" width="600"/>  
+*Figure 5: Workflow of TDANN-based knee angle estimation, with predicted vs. actual trajectories.*  
+
+---
+
+## Evaluation  
+Model performance was assessed using the **coefficient of determination (R²)**, with experiments exploring the effects of varying time delays and hidden neurons.  
+
+---
 
 ## Outcomes  
-- SVM-based classification accurately differentiated between locomotion modes.  
-- Increasing the number of time delays reduced predictive accuracy, highlighting the importance of optimized temporal windowing.  
-- The TDANN achieved optimal performance with ~60 neurons, yielding $R^2 \approx 0.85$ for knee angle prediction.  
-- Predicted knee angle trajectories closely matched target angles after filtering, demonstrating the robustness of the approach.  
+- **Locomotion Classification:** SVM accurately differentiated between locomotion modes.  
+- **Knee Angle Estimation:** TDANN achieved optimal performance with ~60 neurons, yielding **R² ≈ 0.85** for knee angle prediction.  
+- **Temporal Analysis:** Increasing the number of time delays reduced accuracy, highlighting the need for optimal windowing.  
+- **Robustness:** Predicted knee trajectories closely matched ground truth after filtering, confirming reliability for prosthetic and rehabilitation use cases.  
+ 
 
 
 
