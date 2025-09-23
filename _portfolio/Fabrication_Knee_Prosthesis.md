@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: grid
 title: "Fabrication of a Series Elastic Knee Prosthesis"
 categories: [biomechanics, prosthetics, fabrication, mechatronics]
 tags: [prosthesis, knee, series-elastic-actuator, motor-control, fabrication]
