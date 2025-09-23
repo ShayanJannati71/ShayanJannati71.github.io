@@ -1,10 +1,11 @@
 ---
 layout: single
-title: "Hyperelastic Modeling of Soft Elastomeric Material"
-excerpt: "Characterizing soft elastomers using uniaxial testing and hyperelastic models."
+title: "EMG Signal Processing to Detect Locomotion Modes"
+excerpt: "To classify different locomotion modes using Electromyography (EMG) signals through Support Vector Machines (SVM), enabling precise and adaptive control of prosthetic devices."
 ---
 ## Objective
-Characterize the mechanical properties of soft elastomeric substrates (e.g., PDMS) using uniaxial tensile testing and compare their behavior with various hyperelastic models to accurately replicate the stiffness range of native cardiac tissue.
+To classify different locomotion modes using Electromyography (EMG) signals through Support Vector Machines (SVM), enabling precise and adaptive control of prosthetic devices.
+
 
 ## Methods
 - Uniaxial tensile testing of soft PDMS substrates  
