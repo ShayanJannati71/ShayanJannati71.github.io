@@ -119,3 +119,8 @@ collections:
     output: true
     permalink: /:collection/:path/
 
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+
+
