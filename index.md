@@ -11,3 +11,10 @@ Ph.D. in Mechanical Engineering (UBC) specializing in design, prototyping, and d
 - Project 1
 - Project 2
 - Project 3
+
+
+## Explore My Work
+
+🔬 [Fabrication & Microfabrication](/categories/#fabrication--microfabrication)  
+🖥️ [Image & Data Analysis](/categories/#image--data-analysis)  
+⚙️ [Signal Processing & Control Systems](/categories/#signal-processing--control-systems)
