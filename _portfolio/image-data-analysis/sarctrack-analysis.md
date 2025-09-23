@@ -1,41 +1,39 @@
 ---
-title: "Fabrication of Soft Micropatterned Substrate"
-excerpt: "Engineered a soft micropatterned platform to enhance structural and functional maturation of lab-grown cardiomyocytes."
+title: "Computer Vision for Sarcomere Analysis (SarcTrack)"
+excerpt: "Automated contractility measurements of hiPSC-derived cardiomyocytes using double-wavelet fitting."
 header:
-  image: /assets/images/micropatterned.jpg
-  caption: "Micropatterned substrate guiding cardiomyocyte alignment."
-categories: [Cardiac, Tissue Engineering]
-tags: [hiPSC-CM, microfabrication, biomaterials]
+  image: /assets/images/sarctrack.jpg
+  caption: "Tracking Z-line dynamics across hundreds of frames."
+categories: [Image & Data Analysis]
+tags: [computer-vision, cardiomyocytes, contractility]
 ---
 
 ## Overview
-Developing in vitro models that faithfully mimic native cardiac tissue remains a major challenge.  
-This project focused on creating a **soft micropatterned substrate** to guide the alignment and maturation of human induced pluripotent stem cell–derived cardiomyocytes (hiPSC-CMs).  
+This project focused on automating the functional analysis of hiPSC-derived cardiomyocytes using **computer vision** techniques.  
 
 ---
 
 ## Methods
-- Designed and fabricated a **transparent PDMS-based micropatterned substrate** with tunable stiffness.  
-- Cultured hiPSC-CMs on both **patterned** and **unpatterned** surfaces.  
-- Evaluated **structural organization** and **functional contractility** using live-cell imaging and quantitative analysis.  
+- Implemented the **SarcTrack pipeline** based on double-wavelet fitting.  
+- Analyzed Z-line dynamics across large imaging datasets.  
+- Extracted contractile parameters at single-cell and population scale.  
 
 ---
 
 ## Results
-- **Enhanced alignment** of cardiomyocytes on patterned substrates compared to controls.  
-- **Improved contractile strength and synchronization**, supporting more physiologically relevant cardiac models.  
+- Quantified:
+  - Sarcomere shortening  
+  - Maximum contraction and relaxation velocity  
+  - Minimum and maximum sarcomere length  
 
-<img src="/assets/images/TFM-37.png" alt="Micropatterned Substrate" width="600"/>
+![SarcTrack Workflow](/assets/images/sarctrack-workflow.png)
 
 ---
 
 ## Impact
-This platform provides researchers with a reproducible method to improve the maturity of stem cell–derived heart cells.  
-It enables more accurate **disease modeling**, **drug testing**, and **cardiac tissue engineering** applications.  
+Enabled **high-throughput and reproducible assessment** of cardiomyocyte functionality, supporting drug discovery and disease modeling.  
 
 ---
 
 ## Reference
-Published in *Acta Biomaterialia* (2023).  
-DOI: [j.actbio.2024.10.029](https://doi.org/10.1016/j.actbio.2024.10.029)
-
+SarcTrack software repository: [GitHub Link](https://github.com/davidj0/SarcTrack)
