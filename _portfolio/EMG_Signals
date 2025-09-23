@@ -4,12 +4,12 @@ title: "EMG Signal Processing for Locomotion Mode Classification and Knee Angle 
 excerpt: "Developed machine learning and neural network models to classify locomotion modes and estimate knee joint kinematics from EMG signals, enabling adaptive control in prosthetic devices."
 ---
 
-### Objectives  
+## Objectives  
 This project focused on leveraging surface electromyography (sEMG) signals for two primary goals:  
 1. Classifying different locomotion modes using machine learning techniques such as Support Vector Machines (SVM).  
 2. Estimating knee joint kinematics through neural network–based modeling to provide a reliable, non-invasive method for prosthetic control, rehabilitation, and human–machine interaction.  
 
-### Methods  
+## Methods  
 - **Signal Acquisition & Processing:** sEMG signals were collected and pre-processed with filtering and normalization.  
 - **Segmentation & Feature Extraction:** Time-series EMG data were segmented, and relevant features were extracted for analysis.  
 - **Model Development:**  
@@ -17,7 +17,7 @@ This project focused on leveraging surface electromyography (sEMG) signals for t
   - **Kinematics Estimation:** A Time-Delay Artificial Neural Network (TDANN) was designed to model nonlinear relationships between sEMG inputs and knee joint angles.  
 - **Evaluation:** Performance was measured using the coefficient of determination ($R^2$), with experiments assessing the effects of varying delays and neuron counts on model accuracy.  
 
-### Outcomes  
+## Outcomes  
 - SVM-based classification enabled accurate differentiation between locomotion modes.  
 - Increasing the number of delays reduced predictive accuracy, highlighting the importance of optimized temporal windowing.  
 - The TDANN achieved its best performance with approximately 60 neurons, yielding $R^2 \approx 0.85$ for knee angle prediction.  
@@ -25,7 +25,7 @@ This project focused on leveraging surface electromyography (sEMG) signals for t
 
 ---
 
-### Figures  
+## Figures  
 
 **Workflow and Results**  
 ![Workflow of knee joint kinematics estimation using surface EMG and TDANN, along with model evaluation results.](/assets/images/EMG_3.png)  
