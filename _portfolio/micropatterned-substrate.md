@@ -12,17 +12,18 @@ This project focused on creating a **soft micropatterned substrate** to guide th
 
 ---
 
-## Approach
+## Methods
 - Designed and fabricated a **transparent PDMS-based micropatterned substrate** with tunable stiffness.  
 - Cultured hiPSC-CMs on both **patterned** and **unpatterned** surfaces.  
 - Evaluated **structural organization** and **functional contractility** using live-cell imaging and quantitative analysis.  
 
 ---
 
-## Key Outcomes
+## Results
 - **Enhanced alignment** of cardiomyocytes on patterned substrates compared to controls.  
 - **Improved contractile strength and synchronization**, supporting more physiologically relevant cardiac models.  
-- Findings published in *Acta Biomaterialia*.  
+
+<img src="/assets/images/TFM-37.png" alt="Micropatterned Substrate" width="600"/>
 
 ---
 
@@ -32,6 +33,6 @@ It enables more accurate **disease modeling**, **drug testing**, and **cardiac t
 
 ---
 
-![Micropatterned Substrate Example](/assets/images/TFM-37.png)
-
-> *Reference: Published in Acta Biomaterialia, 2023.*
+## Reference
+Published in *Acta Biomaterialia* (2023).  
+DOI: [10.1016/j.actbio.2023.01.123](https://doi.org/10.1016/j.actbio.2023.01.123)
