@@ -4,26 +4,10 @@ title: "Hyperelastic Modeling of Soft Elastomeric Substrates"
 excerpt: "Characterizing soft elastomers using uniaxial testing and hyperelastic models."
 ---
 
-<!-- Centered Custom Title and Header Figure -->
-<div style="text-align: center; margin-bottom: 30px;">
 
-  <!-- Custom Project Title -->
-  <h1 style="font-weight: 700; margin-bottom: 25px;">
-    Hyperelastic Modeling of Soft Elastomeric Substrates
-  </h1>
+<img src="/assets/images/Uniaxial_Testing_1.png" alt="Uniaxial Testing of Soft Elastomer 2" width="600"/>
+Figure 1: Uniaxial tensile testing of soft PDMS substrates using the Instron 5969 Universal Testing System.
 
-  <!-- Header Figure -->
-  <img src="/assets/images/Uniaxial_Testing_1.png" 
-       alt="Uniaxial tensile testing setup for soft PDMS substrates" 
-       width="600"
-       style="border: 1px solid #ddd; border-radius: 8px; margin-bottom: 10px;"/>
-
-  <!-- Figure Caption -->
-  <p style="font-style: italic; color: #555; margin-top: 0;">
-    Figure 1: Uniaxial tensile testing of soft PDMS substrates using the Instron 5969 Universal Testing System.
-  </p>
-
-</div>
 
 
 <img src="/assets/images/Uniaxial_Testing_2.png" alt="Uniaxial Testing of Soft Elastomer 2" width="600"/>
