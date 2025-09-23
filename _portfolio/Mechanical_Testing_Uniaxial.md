@@ -1,5 +1,4 @@
 ---
-#title: "Hyperelastic Modeling of Soft Elastomeric Substrates"
 layout: single
 excerpt: "Characterizing soft elastomers using uniaxial testing and hyperelastic models."
 ---
