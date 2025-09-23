@@ -1,4 +1,3 @@
-
 ---
 title: "Fabrication of Soft Micropatterned Substrate"
 excerpt: "Engineered a soft micropatterned platform to enhance structural and functional maturation of lab-grown cardiomyocytes."
