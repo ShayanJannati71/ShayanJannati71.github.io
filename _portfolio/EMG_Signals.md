@@ -24,6 +24,10 @@ This project leveraged surface electromyography (sEMG) signals for two primary g
 **Locomotion Mode Classification Using SVM**  
 <img src="/assets/images/EMG_2.png" alt="Locomotion Mode Classification using SVM" width="600"/>  
 *Figure 2: Confusion matrix showing SVM classification accuracy across multiple locomotion modes.*
+
+**TDANN Workflow and Knee Angle Estimation Results**  
+<img src="/assets/images/EMG_3.png" alt="Workflow of knee joint kinematics estimation using TDANN" width="600"/>  
+*Figure 3: Workflow for knee joint kinematics estimation from sEMG using TDANN, along with predicted vs. actual knee angle trajectories.*
  
 - **Model Development:**  
   - **Locomotion Classification:** SVM was used to classify locomotion modes.  
@@ -36,9 +40,6 @@ This project leveraged surface electromyography (sEMG) signals for two primary g
 - The TDANN achieved optimal performance with ~60 neurons, yielding $R^2 \approx 0.85$ for knee angle prediction.  
 - Predicted knee angle trajectories closely matched target angles after filtering, demonstrating the robustness of the approach.  
 
-**TDANN Workflow and Knee Angle Estimation Results**  
-<img src="/assets/images/EMG_3.png" alt="Workflow of knee joint kinematics estimation using TDANN" width="600"/>  
-*Figure 3: Workflow for knee joint kinematics estimation from sEMG using TDANN, along with predicted vs. actual knee angle trajectories.*
 
 
 
