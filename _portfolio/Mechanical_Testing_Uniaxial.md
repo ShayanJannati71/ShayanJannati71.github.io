@@ -4,7 +4,7 @@ title: "Hyperelastic Modeling of Soft Elastomeric Substrates"
 excerpt: "Characterizing soft elastomers using uniaxial testing and hyperelastic models."
 ---
 ## Objective
-Characterize soft elastomeric substrates using uniaxial testing and compare different hyperelastic models.
+Characterize the mechanical properties of soft elastomeric substrates (e.g., PDMS) using uniaxial tensile testing and compare their behavior with various hyperelastic models to accurately replicate the stiffness range of native cardiac tissue.
 
 ## Methods
 - Uniaxial tensile testing of soft PDMS substrates  
