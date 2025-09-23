@@ -13,7 +13,7 @@ Characterize the mechanical properties of soft elastomeric substrates (e.g., PDM
 
 
 <img src="/assets/images/Uniaxial_Testing_1.png" alt="Uniaxial Testing of Soft Elastomer 2" width="600"/>
-Figure 1: Uniaxial tensile testing of soft PDMS substrates using the Instron 5969 Universal Testing System.
+Figure 1: Uniaxial tensile testing of soft PDMS substrates using the Instron 5969 Universal Testing System ( [UBC CFET]([https://doi.org/10.1016/j.actbio.2024.10.029](https://cfet.ubc.ca/?_gl=1%2A1qlv556%2A_gcl_au%2AMjMxMTE5ODM5LjE3NTY3NTEzODU.%2A_ga%2ANzQ0NDU0MDA1LjE3NTY3NDIzNDg.%2A_ga_4HEE092K89%2AczE3NTg2NDk5NTEkbzI4JGcxJHQxNzU4NjQ5OTg3JGoyNCRsMCRoMA..))).
 
 
 
