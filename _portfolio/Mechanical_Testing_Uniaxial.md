@@ -5,7 +5,7 @@ excerpt: "Characterizing soft elastomers using uniaxial testing and hyperelastic
 ---
 <!-- Centered Title -->
 <h1 style="text-align: center; font-weight: 700; margin-bottom: 25px;">
-  Hyperelastic Modeling of Soft Elastomeric Substrates
+  Hyperelastic Modeling of Soft Elastomeric Material
 </h1>
 
 <!-- Header Figure -->
