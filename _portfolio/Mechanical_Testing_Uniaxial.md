@@ -1,4 +1,5 @@
 ---
+title: ""
 layout: single
 excerpt: "Characterizing soft elastomers using uniaxial testing and hyperelastic models."
 ---
