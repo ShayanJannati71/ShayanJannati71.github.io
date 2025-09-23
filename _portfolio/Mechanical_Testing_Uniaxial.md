@@ -2,7 +2,10 @@
 layout: single
 excerpt: "Characterizing soft elastomers using uniaxial testing and hyperelastic models."
 ---
-<h1 style="text-align: center;">Hyperelastic Modeling of Soft Elastomeric Substrates</h1>
+<!-- Centered Title -->
+<h1 style="text-align: center; font-weight: 700; margin-bottom: 25px;">
+  Hyperelastic Modeling of Soft Elastomeric Substrates
+</h1>
 
 
 
