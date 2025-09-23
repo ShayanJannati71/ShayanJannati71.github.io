@@ -1,4 +1,5 @@
 ---
+layour: single
 title: "EMG Signals: Preprocessing & Feature Extraction"
 date: 2025-09-23
 categories: [signal‐processing, EMG, machine-learning]
@@ -15,9 +16,14 @@ This project leveraged surface electromyography (sEMG) signals for two primary g
 ## Methods  
 - **Signal Acquisition & Processing:** sEMG signals were collected from multiple muscles (Rectus Femoris, Vastus Lateralis, Vastus Medialis, and Biceps Femoris) and pre-processed using filtering and normalization.
 
+**sEMG Signals Aquisition experimental setup for data aquisition**
+
+<img src="/assets/images/EMG_5.png" alt="sEMG signals Experimental" width="600"/>  
+*Figure 1: Example sEMG signals collected from major lower limb muscles during locomotion tasks.*
+
 **sEMG Signals from Lower Limb Muscles**  
 <img src="/assets/images/EMG_1.png" alt="sEMG signals from Rectus Femoris, Vastus Lateralis, Vastus Medialis, and Biceps Femoris" width="600"/>  
-*Figure 1: Example sEMG signals collected from major lower limb muscles during locomotion tasks.*
+*Figure 1: pure sEMG signals and teh IMU data collected at the ame time.*
 
 - **Segmentation & Feature Extraction:** Time-series EMG data were segmented, and relevant temporal and statistical features were extracted.
 
