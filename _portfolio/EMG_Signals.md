@@ -1,8 +1,11 @@
 ---
-layout: single
-title: "EMG Signal Processing for Locomotion Mode Classification and Knee Angle Estimation"
-excerpt: "Developed machine learning and neural network models to classify locomotion modes and estimate knee joint kinematics from EMG signals, enabling adaptive control in prosthetic devices."
+title: "EMG Signals: Preprocessing & Feature Extraction"
+date: 2025-09-23
+categories: [signal‐processing, EMG, machine-learning]
+tags: [EMG, filtering, Python, features]
+excerpt: "Analysis of raw EMG signals, preprocessing and features extraction insights."
 ---
+
 
 ## Objectives  
 This project leveraged surface electromyography (sEMG) signals for two primary goals:  
