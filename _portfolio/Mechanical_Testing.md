@@ -11,3 +11,5 @@ Micropatterning, live cell imaging, AI-based contractility analysis.
 
 ## Outcome
 Improved sarcomere organization and adult-like contractile behavior.
+
+<img src="/assets/images/Uniaxial_Testing.png" alt="Micropatterned Substrate" width="600"/>
