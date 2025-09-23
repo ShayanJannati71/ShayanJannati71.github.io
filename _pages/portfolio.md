@@ -1,7 +1,10 @@
 ---
-layout: archive
+layout: collection
 title: "Portfolio"
-permalink: /portfolio/
 collection: portfolio
+permalink: /portfolio/
+entries_layout: grid
 ---
+
+
 
