@@ -4,6 +4,8 @@ excerpt: "Engineered a soft micropatterned platform to enhance structural and fu
 header:
   image: /assets/images/micropatterned.jpg
   caption: "Micropatterned substrate guiding cardiomyocyte alignment."
+categories: [Cardiac, Tissue Engineering]
+tags: [hiPSC-CM, microfabrication, biomaterials]
 ---
 
 ## Overview
