@@ -3,11 +3,6 @@ layout: single
 title: "EMG Signal Processing to Detect Locomotion Modes and Knee Angle Estimation"
 excerpt: "To classify different locomotion modes using Electromyography (EMG) signals through Support Vector Machines (SVM), enabling precise and adaptive control of prosthetic devices."
 ---
-## Objective
-The primary objective of this study was to estimate knee joint kinematics using surface electromyography (sEMG) signals. By leveraging neural network–based modeling, the aim was to establish a reliable, non-invasive approach for predicting knee joint angles that could support applications in rehabilitation, prosthetics, and human–machine interaction.
-
-## Methods
-## Knee Joint Kinematics Estimation Using sEMG
 
 ### Objectives  
 The objective of this project was to estimate knee joint kinematics using surface electromyography (sEMG) signals. By employing neural network–based modeling, the goal was to develop a reliable, non-invasive method for predicting knee joint angles to support applications in rehabilitation, prosthetics, and human–machine interaction.  
