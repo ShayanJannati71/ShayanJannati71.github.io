@@ -1,9 +1,10 @@
 ---
 layout: single
 title: "Automated Sarcomere Tracking with SarcTrack"
-categories: [image-analysis, biomechanics, cardiac]
-tags: [Sarcomere, hiPSC-CM, image-processing, wavelet, Python]
 excerpt: "Automated analysis of sarcomere dynamics in hiPSC-CMs using double-wavelet fitting and signal tracking."
+header:
+  image: /assets/images/Sarctrack_1.png
+  caption: "Automated sarcomere tracking using double-wavelet fitting"
 ---
 
 ## Objective  
