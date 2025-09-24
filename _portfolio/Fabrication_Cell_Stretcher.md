@@ -19,7 +19,7 @@ To design and develop a versatile cell stretcher system for controlled mechanica
 To design and develop a versatile cell stretcher system for controlled mechanical stimulation of biological samples during live imaging.  
 
 **Biaxial Cell Stretcher**  
-<img src="/assets/images/Lego_Cell_Stretcher.png" alt="Workflow of impedance control for robotic knee prosthesis" width="800"/>
+<img src="/assets/images/Logo_Cell_Stretcher.png" alt="Workflow of impedance control for robotic knee prosthesis" width="800"/>
 
 ## Outcome *(in progress)*  
 - Supports customizable stretching protocols, including cyclic, uniaxial, and biaxial modes  
