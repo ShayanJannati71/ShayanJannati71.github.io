@@ -114,13 +114,23 @@ tag_archive:
   type: liquid
   path: /tags/
 
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+
+
 collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
-
-markdown: kramdown
-kramdown:
-  math_engine: mathjax
+defaults:
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: false
+      share: false
+      comments: false
 
 
