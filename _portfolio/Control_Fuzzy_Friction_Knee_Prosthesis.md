@@ -4,7 +4,8 @@ title: "Impedance Control in Knee Prostheses using Fuzzy Friction Estimation"
 categories: [Image/Data Analysis, Simulation & Control]
 tags: [prosthesis, knee, impedance-control, fuzzy-logic, friction-estimation]
 excerpt: "Integration of fuzzy logic-based friction estimation into an impedance control framework to enhance stability and adaptability of robotic knee prostheses."
-teaser: /assets/images/Sarctrack_1.png 
+header:
+  teaser: /assets/images/Knee_Prosthesis_Workflow_Friction_Control_Plus_Fuzzy_Estimation_Block.png 
 ---
 
 ## Objective  
