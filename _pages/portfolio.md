@@ -15,17 +15,17 @@ classes: wide
 
 <div style="clear: both;"></div>   <!-- force new row -->
 
-## Image & Data Analysis
+## Modeling and Simulation
 <div class="entries-grid">
-  {% assign entries = site.portfolio | where_exp: "item", "item.categories contains 'image-data-analysis'" | sort: "date" | reverse %}
+  {% assign entries = site.portfolio | where_exp: "item", "item.categories contains 'Modeling-Simulation'" | sort: "date" | reverse %}
   {% for post in entries %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 </div>
 
-## Modeling & Simulation
+## Image & Signal Processing and Machine Learning
 <div class="entries-grid">
-  {% assign entries = site.portfolio | where_exp: "item", "item.categories contains 'Modeling-Simulation'" | sort: "date" | reverse %}
+  {% assign entries = site.portfolio | where_exp: "item", "item.categories contains 'image-data-analysis'" | sort: "date" | reverse %}
   {% for post in entries %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
