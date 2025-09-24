@@ -1,5 +1,5 @@
 ---
-title: "Multi-Axis Cell Stretcher for Live Cell Imaging and Mechanical Stimulation"
+title: "Biaxial Cell Stretcher for Live Cell Imaging and Mechanical Stimulation"
 excerpt: "A versatile biaxial cell stretcher enabling real-time imaging and controlled mechanical stimulation of biological samples."
 categories:
   - fabrication
