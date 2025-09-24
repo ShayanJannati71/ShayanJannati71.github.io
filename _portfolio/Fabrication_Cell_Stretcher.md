@@ -35,7 +35,7 @@ To design and develop a versatile cell stretcher system for controlled mechanica
 ## Gallery  
 
 **Biaxial Cell Stretcher**  
-![Biaxial Cell Stretcher](/assets/images/Lego_Cell_Stretcher.png)  
+<img src="/assets/images/Lego_Cell_Stretcher.png" alt="Workflow of impedance control for robotic knee prosthesis" width="800"/>
 
 **Actuation System**  
 ![Actuation System](/assets/images/cell-stretcher/actuators.png)  
