@@ -26,7 +26,7 @@ This project focused on creating a **soft micropatterned substrate** to guide th
 - **Enhanced alignment** of cardiomyocytes on patterned substrates compared to controls.  
 - **Improved contractile strength and synchronization**, supporting more physiologically relevant cardiac models.  
 
-<img src="/assets/images/Micropatterned_Substrate_2.png" alt="Micropatterned Substrate 2" width="600"/>
+<img src="/assets/images/Fabrication_Substrate_Cells.png" alt="Micropatterned Substrate 2" width="600"/>
 
 ---
 
