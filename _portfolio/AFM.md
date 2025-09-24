@@ -6,7 +6,7 @@ categories: [Modeling-Simulation]
 tags: [cardiac cells, myofibrils, AFM, QLV, biomechanics, heart-disease]
 
 header:
-  teaser: /assets/images//AFM_1.png
+  teaser: /assets/images/Logo_AFM.jpg
 ---
 
 ## Objective  
