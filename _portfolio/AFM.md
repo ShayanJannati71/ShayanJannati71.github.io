@@ -2,7 +2,7 @@
 layout: single
 title: "Investigating Viscoelastic Properties of Cardiac Myofibrils Using AFM"
 excerpt: "Measured the viscoelastic behavior of cardiac myofibrils derived from hiPSC-CMs using Atomic Force Microscopy (AFM) and modeled responses with a Quasi-Linear Viscoelastic (QLV) framework."
-categories: [Image/Data Analysis]
+categories: [image-analysis]
 tags: [cardiac cells, myofibrils, AFM, QLV, biomechanics, heart-disease]
 
 header:
