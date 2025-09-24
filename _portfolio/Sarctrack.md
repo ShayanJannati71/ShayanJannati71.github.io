@@ -2,7 +2,7 @@
 layout: single
 title: "Automated Sarcomere Tracking with SarcTrack"
 excerpt: "Automated analysis of sarcomere dynamics in hiPSC-CMs using double-wavelet fitting and signal tracking."
-categories: [Image/Data Analysis]
+categories: [image-data-analysis]
 header:
   teaser: /assets/images/Sarctrack_1.png
 ---
