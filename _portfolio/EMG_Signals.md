@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "EMG Signal Processing for Locomotion Classification and Knee Angle Estimation"
-categories: [signal-processing, EMG, machine-learning]
+categories: [image-analysis]
 tags: [EMG, locomotion, prosthetics, neural-networks, SVM, Python]
 excerpt: "Developed machine learning and neural network models to classify locomotion modes and estimate knee joint kinematics from EMG signals, enabling adaptive prosthetic control and rehabilitation applications."
 
