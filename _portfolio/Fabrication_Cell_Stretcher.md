@@ -1,6 +1,6 @@
 ---
 title: "Biaxial Cell Stretcher for Live Cell Imaging and Mechanical Stimulation"
-excerpt: "Developing a cost-effective cell stretcher platform that mimics the dynamic microenvironment of heart cells, enabling controlled mechanical stimulation and real-time analysis."
+excerpt: "Developing a cost-effective cell stretcher platform that mimics the dynamic microenvironment of heart, enabling controlled mechanical stimulation and real-time analysis."
 categories:
   - fabrication
 tags:
