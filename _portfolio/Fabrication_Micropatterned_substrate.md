@@ -5,7 +5,7 @@ categories: [Fabrication]
 tags: [hiPSC-CM, microfabrication, biomaterials]
 layout: single
 header:
- teaser:/assets/images/Micropatterned_Substrate_1.png
+ teaser: /assets/images/Micropatterned_Substrate_1.png
 ---
 
 ## Overview
