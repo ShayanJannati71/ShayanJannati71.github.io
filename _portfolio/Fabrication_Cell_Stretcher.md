@@ -10,7 +10,7 @@ tags:
   - Live Cell Imaging
   - Mechanical Stimulation
 header:
-  teaser: /assets/images/Logo_Cell_Stretcher_2.png
+  teaser: /assets/images/Logo_Cell_Stretcher.png
 ---
  
 ## Objective  
@@ -18,7 +18,7 @@ To design and develop a versatile cell stretcher system that recapitulates the d
 
 
 **Biaxial Cell Stretcher**  
-<img src="/assets/images/Logo_Cell_Stretcher.png" alt="Workflow of impedance control for robotic knee prosthesis" width="800"/>
+<img src="/assets/images/Cell_Stretcher.png" alt="Workflow of impedance control for robotic knee prosthesis" width="800"/>
 
 ## Outcome *(in progress)*  
 - Supports customizable stretching protocols, including cyclic, uniaxial, and biaxial modes  
