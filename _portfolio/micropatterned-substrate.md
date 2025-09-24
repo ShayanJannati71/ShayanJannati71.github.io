@@ -1,5 +1,5 @@
 ---
-title: "Fabrication of Soft Micropatterned Substrate"
+title: "Fabrication of Soft Micropatterned Substrate for Studying Heart Diseases"
 excerpt: "Engineered a soft micropatterned platform to enhance structural and functional maturation of lab-grown cardiomyocytes."
 categories: [Cardiac, Tissue Engineering]
 tags: [hiPSC-CM, microfabrication, biomaterials]
