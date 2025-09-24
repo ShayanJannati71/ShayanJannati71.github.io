@@ -3,7 +3,7 @@ layout: collection
 title: "Portfolio"
 collection: portfolio
 permalink: /portfolio/
-entries_layout: single
+entries_layout: grid
 ---
 
 
