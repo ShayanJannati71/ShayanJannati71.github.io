@@ -1,11 +1,11 @@
 ---
 layout: single
 title: "Fabrication of a Series Elastic Knee Prosthesis"
-categories: [Design,Fabrication, Mechatronics]
+categories: [Design, Fabrication, Mechatronics]
 tags: [prosthesis, knee, series-elastic-actuator, motor-control, fabrication]
 excerpt: "Design and fabrication of a knee prosthesis using a series elastic actuator architecture, integrating electrical, mechanical, and control subsystems."
 header:
-  teaser:/assets/images/Knee_Prosthesis_Setup.png
+  teaser: /assets/images/Knee_Prosthesis_Setup.png  # shows in portfolio grid
 ---
 
 ## Objectives  
