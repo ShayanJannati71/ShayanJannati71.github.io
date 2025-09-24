@@ -15,7 +15,11 @@ header:
 
 ## Objective  
 To design and develop a versatile cell stretcher system for controlled mechanical stimulation of biological samples during live imaging.  
-*This work was carried out as a UBC Mechanical Engineering Capstone Project in collaboration with the MEMS Lab.*  
+## Objective  
+To design and develop a versatile cell stretcher system for controlled mechanical stimulation of biological samples during live imaging.  
+
+**Biaxial Cell Stretcher**  
+<img src="/assets/images/Lego_Cell_Stretcher.png" alt="Workflow of impedance control for robotic knee prosthesis" width="800"/>
 
 ## Outcome *(in progress)*  
 - Supports customizable stretching protocols  
@@ -32,15 +36,7 @@ To design and develop a versatile cell stretcher system for controlled mechanica
 
 ---
 
-## Gallery  
+*This project originated as a Capstone Project in the MEMS Lab and is currently being further developed and refined for in vitro real-time testing. Some technical details remain confidential at this stage.*  
 
-**Biaxial Cell Stretcher**  
-<img src="/assets/images/Lego_Cell_Stretcher.png" alt="Workflow of impedance control for robotic knee prosthesis" width="800"/>
-
-**Actuation System**  
-![Actuation System](/assets/images/cell-stretcher/actuators.png)  
-
-**Cell Culture Chamber**  
-![Cell Culture Chamber](/assets/images/cell-stretcher/chamber.png)  
 
 
