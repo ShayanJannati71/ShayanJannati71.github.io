@@ -1,9 +1,10 @@
 ---
 layout: single
 title: "Impedance Control in Knee Prostheses using Fuzzy Friction Estimation"
-categories: [biomechanics, prosthetics, control, robotics]
+categories: [Image/Data Analysis, Simulation & Control]
 tags: [prosthesis, knee, impedance-control, fuzzy-logic, friction-estimation]
 excerpt: "Integration of fuzzy logic-based friction estimation into an impedance control framework to enhance stability and adaptability of robotic knee prostheses."
+teaser: /assets/images/Sarctrack_1.png 
 ---
 
 ## Objective  
@@ -43,12 +44,12 @@ The objective of this project was to **improve control strategies for robotic kn
 <img src="/assets/images/Knee_Prosthesis_Result_2_Impedance_Control.png" alt="Motor current under impedance control with fuzzy estimation" width="700"/>  
 *Figure 6: Motor current signals showing stable and consistent control effort with fuzzy friction compensation.*  
 
-### Friction Compensation in Motion  
-<img src="/assets/images/Knee_Prosthesis_Result_Friction.png" alt="Friction compensation result" width="600"/>  
-*Figure 7: Improved torque tracking with fuzzy friction estimation during cyclic motion.*  
+#  ### Friction Compensation in Motion  
+#<img src="/assets/images/Knee_Prosthesis_Result_Friction.png" alt="Friction compensation result" width="600"/>  
+#*Figure 7: Improved torque tracking with fuzzy friction estimation during cyclic motion.*  
 
-<img src="/assets/images/Knee_Prosthesis_Result_Friction_kinetics.png" alt="Knee angle and estimated friction profiles" width="600"/>  
-*Figure 8: Knee angle trajectory (top) and estimated friction torque (bottom), showing effective compensation during swing.*  
+#<img src="/assets/images/Knee_Prosthesis_Result_Friction_kinetics.png" alt="Knee angle and estimated friction profiles" width="600"/>  
+#*Figure 8: Knee angle trajectory (top) and estimated friction torque (bottom), showing effective compensation during swing.*  
 
 ---
 
