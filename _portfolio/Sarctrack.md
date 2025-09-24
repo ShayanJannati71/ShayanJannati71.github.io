@@ -5,6 +5,7 @@ excerpt: "Automated analysis of sarcomere dynamics in hiPSC-CMs using double-wav
 categories: [Image/Data Analysis]
 header:
   image: /assets/images/Sarctrack_1.png
+  teaser: /assets/images/Sarctrack_1.png   # 👈 this shows in the grid card
 ---
 
 ## Objective  
