@@ -5,7 +5,7 @@ permalink: /portfolio/
 classes: wide
 ---
 
-## Biomedical Device Development
+## Biomedical Device Fabrication & Development
 <div class="entries-grid">
   {% assign entries = site.portfolio | where_exp: "item", "item.categories contains 'fabrication'" | sort: "date" | reverse %}
   {% for post in entries %}
