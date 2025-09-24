@@ -6,7 +6,7 @@ tags: [EMG, locomotion, prosthetics, neural-networks, SVM, Python]
 excerpt: "Developed machine learning and neural network models to classify locomotion modes and estimate knee joint kinematics from EMG signals, enabling adaptive prosthetic control and rehabilitation applications."
 
 header:
- teaser:/assets/images/EMG_Data_Acquisition.png
+ teaser: /assets/images/EMG_Data_Acquisition.png
 ---
 
 ## Objectives  
