@@ -5,7 +5,7 @@ categories: [image-data-analysis]
 tags: [Image Analysis, Fluorescence Microscopy, Mitochondria, Cardiac Cells, MATLAB, CellProfiler]
 layout: single
 header:
-  teaser: /assets/images/Image_Analysis_Mito_1.png
+  teaser: /assets/images/Logo_Mitochondria.png
 ---
 
 ## Objective  
