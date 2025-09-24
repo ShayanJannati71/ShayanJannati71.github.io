@@ -5,6 +5,9 @@ date: 2025-09-23
 categories: [biomechanics, prosthetics, control, robotics]
 tags: [prosthesis, knee, impedance-control, PI-controller, swing-phase]
 excerpt: "Development of a multi-level impedance control strategy for robotic knee prostheses to improve performance during the swing phase of gait."
+
+header:
+  teaser: /assets/images//AFM_1.png
 ---
 
 ## Objective  
