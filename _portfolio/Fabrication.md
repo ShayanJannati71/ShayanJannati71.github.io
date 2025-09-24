@@ -1,7 +1,7 @@
 ---
 title: "Fabrication"
-layout: none
 permalink: /portfolio/fabrication/
+layout: none
 ---
 
 <div class="entries-grid">
