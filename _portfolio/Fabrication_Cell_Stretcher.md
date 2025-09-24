@@ -14,9 +14,7 @@ header:
 ---
 
 ## Objective  
-To design and develop a versatile cell stretcher system for controlled mechanical stimulation of biological samples during live imaging.  
-## Objective  
-To design and develop a versatile cell stretcher system for controlled mechanical stimulation of biological samples during live imaging.  
+To create a flexible cell stretcher platform that enables controlled mechanical stimulation of biological samples for use in mechanobiology and biomedical research.
 
 **Biaxial Cell Stretcher**  
 <img src="/assets/images/Logo_Cell_Stretcher.png" alt="Workflow of impedance control for robotic knee prosthesis" width="800"/>
