@@ -39,13 +39,13 @@ It enables more accurate **disease modeling**, **drug testing**, and **cardiac t
 ## Supporting Videos  
 
 **Video S1.** Synchronized beating of hiPSC-CMs cultured on a soft micropatterned substrate coated with PD/laminin, paced at 1 Hz.  
-![Micropatterned Substrate Video 1](/assets/videos/Micopatterned_Substrate_1.gif)  
+![Micropatterned Substrate Video 1](/assets/video/Micopatterned_Substrate_1.gif)  
 
 **Video S2.** Effect of the micropatterned substrate on hiPSC-CM alignment at 1 Hz pacing. Sarcomeres are shown in green, mitochondria in red, and nuclei in blue.  
-![Micropatterned Substrate Video 2](/assets/videos/Micopatterned_Substrate_2.gif)  
+![Micropatterned Substrate Video 2](/assets/video/Micopatterned_Substrate_2.gif)  
 
 **Video S3.** Z-stack imaging of hiPSC-CMs cultured for 90 days on the soft micropatterned substrate.  
-![Micropatterned Substrate Video 3](/assets/videos/Micopatterned_Substrate_3.gif)  
+![Micropatterned Substrate Video 3](/assets/video/Micopatterned_Substrate_3.gif)  
 
 ---
 
