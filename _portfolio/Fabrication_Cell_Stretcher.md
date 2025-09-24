@@ -1,6 +1,6 @@
 ---
 title: "Biaxial Cell Stretcher for Live Cell Imaging and Mechanical Stimulation"
-excerpt: "A versatile biaxial cell stretcher enabling real-time imaging and controlled mechanical stimulation of biological samples."
+excerpt: "Developing a cost-effective cell stretcher platform that mimics the dynamic microenvironment of heart cells, enabling controlled mechanical stimulation and real-time analysis."
 categories:
   - fabrication
 tags:
@@ -12,9 +12,10 @@ tags:
 header:
   teaser: /assets/images/Lego_Cell_Stretcher.png
 ---
-
+ 
 ## Objective  
-To create a flexible cell stretcher platform that enables controlled mechanical stimulation of biological samples for use in mechanobiology and biomedical research.
+To design and develop a versatile cell stretcher system that recapitulates the dynamic microenvironment of heart cells, while providing controlled mechanical stimulation of biological samples for broader research applications.  
+
 
 **Biaxial Cell Stretcher**  
 <img src="/assets/images/Logo_Cell_Stretcher.png" alt="Workflow of impedance control for robotic knee prosthesis" width="800"/>
