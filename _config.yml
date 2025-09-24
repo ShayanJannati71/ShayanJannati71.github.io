@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: "Shayan Jannati Portfolio"
-email: shayanjannati@example.com
+email: shayanjannati71@gmail.com
 description: >- # this text shows up in search results and previews
   A portfolio showcasing my work in medical device design, microfabrication, 
   image and data analysis, and simulation — highlighting projects at the 
@@ -61,7 +61,7 @@ plugins:
 author:
   name   : "Shayan Jannati"
   avatar : "/assets/images/Portfolio_Picture.jpeg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Ph.D in Mechanical Engineering"
   links:
    # - label: "Website"
     #  icon: "fas fa-fw fa-link"
@@ -72,6 +72,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "www.linkedin.com/in/shayan-jannati-172581b2"
    # - label: "Instagram"
     #  icon: "fab fa-fw fa-instagram"
      # url: "https://instagram.com/"
