@@ -1,7 +1,7 @@
 ---
 title: "Image Processing Workflow for Cardiac Cells Orientation Measurement"
 excerpt: "Automated pipeline for quantifying cardiac cell alignment and orientation on micropatterned substrates."
-categories: [Image & Signal Processing and Machine Learning]
+categories: [image-data-analysis]
 tags: [Image Analysis, Orientation, Cardiac Cells, Micropatterning, MATLAB, CellProfiler]
 layout: single
 header:
