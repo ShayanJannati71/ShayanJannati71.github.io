@@ -22,12 +22,12 @@ To quantify the **mechanical behavior of cardiac myofibrils** derived from human
 ---
 
 ## Key Findings  
-- The **elastic modulus** of hiPSC-CM myofibrils was **9.78 ± 5.80 kPa**, consistent with the stiffness of adult human heart myofibrils.  
+- The **elastic modulus** of hiPSC-CM myofibrils was about **10 kPa**, consistent with the stiffness of adult human heart myofibrils.  
 - hiPSC-CM myofibrils exhibited **slower relaxation dynamics** compared to porcine tissue, especially within the first 0.25 s after stretch.  
 - The **QLV model** accurately captured both **elastic and viscous responses** across tested strain ranges.  
 
 <img src="/assets/images/AFM_2.png" alt="Stress relaxation of myofibrils" width="700"/>  
-*Figure 2: Stress relaxation responses across different strain levels fitted with QLV model.*  
+*Figure 2: Stress relaxation responses across different strain levels for hiPSC-CMs.*  
 
 ---
 
