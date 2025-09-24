@@ -11,7 +11,7 @@ tags:
   - Live Cell Imaging
   - Mechanical Stimulation
 header:
-  image: /assets/images/cell-stretcher/main.png
+    teaser: /assets/images/Lego_Cell_Stretcher.png
 ---
 
 ## Objective  
