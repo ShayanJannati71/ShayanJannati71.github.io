@@ -9,8 +9,7 @@ header:
 ---
 
 ## Overview
-Developing in vitro models that faithfully mimic native cardiac tissue remains a major challenge.  
-This project focused on creating a **soft micropatterned substrate** to guide the alignment and maturation of human induced pluripotent stem cell–derived cardiomyocytes (hiPSC-CMs).  
+Developing in vitro models that faithfully mimic native cardiac tissue remains a major challenge. This project focused on creating a **soft micropatterned substrate** to guide the alignment and maturation of human induced pluripotent stem cell–derived cardiomyocytes (hiPSC-CMs).  
 
 <img src="/assets/images/Micropatterned_Substrate_1.png" alt="Micropatterned Substrate 1" width="600"/>
 ---
