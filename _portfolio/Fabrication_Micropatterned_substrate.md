@@ -25,7 +25,7 @@ Developing in vitro models that faithfully mimic native cardiac tissue remains a
 - **Enhanced alignment** of cardiomyocytes on patterned substrates compared to controls.  
 - **Improved contractile strength and synchronization**, supporting more physiologically relevant cardiac models.  
 
-<img src="/assets/images/Fabrication_Substrate_Cells.png" alt="Micropatterned Substrate 2" width="600"/>
+<img src="/assets/images/Fabrication_Substrate_Cells.png" alt="Micropatterned Substrate 2" width="800"/>
 
 ---
 
