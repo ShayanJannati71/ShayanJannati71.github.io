@@ -37,5 +37,5 @@ It enables more accurate **disease modeling**, **drug testing**, and **cardiac t
 ---
 
 ## Reference
-Published in *Acta Biomaterialia* (2023).  
+Published in *Acta Biomaterialia* (2024).  
 DOI: [j.actbio.2024.10.029](https://doi.org/10.1016/j.actbio.2024.10.029)
