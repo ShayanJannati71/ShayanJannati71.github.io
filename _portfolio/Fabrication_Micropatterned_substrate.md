@@ -41,11 +41,6 @@ Synchronized beating of hiPSC-CMs cultured on a soft micropatterned substrate co
 ![Micropatterned Substrate Video 1](/assets/video/Micopatterned_Substrate_1.mp4) 
 Synchronized beating of hiPSC-CMs cultured on a soft micropatterned substrate coated with PD/laminin, paced at 1 Hz.  
 
-
-#**Video S2.** Effect of the micropatterned substrate on hiPSC-CM alignment at 1 Hz pacing. Sarcomeres are shown in green, #mitochondria in red, and nuclei in blue.  
-#![Micropatterned Substrate Video 2](/assets/video/Micopatterned_Substrate_2.mp4)  
-
-
 ![Micropatterned Substrate Video 3](/assets/video/Micopatterned_Substrate_3.mp4)  
 Effect of the micropatterned substrate on hiPSC-CM alignment at 1 Hz pacing. Sarcomeres are shown in green, mitochondria in red, and nuclei in blue.
 
