@@ -22,11 +22,11 @@ To design and develop a versatile cell stretcher system for controlled mechanica
 <img src="/assets/images/Lego_Cell_Stretcher.png" alt="Workflow of impedance control for robotic knee prosthesis" width="800"/>
 
 ## Outcome *(in progress)*  
-- Supports customizable stretching protocols  
+- Supports customizable stretching protocols, including cyclic, uniaxial, and biaxial modes  
 - Enables real-time imaging on inverted microscopes  
 - Compatible with stage-top incubators  
-- Integrates with multiple chamber types and stimulation modalities  
-- Aimed at advancing research in cell mechanics and cardiac biology  
+- Integrates force sensors for precise measurement  
+
 
 ---
 
