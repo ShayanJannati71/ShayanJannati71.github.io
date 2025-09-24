@@ -36,7 +36,7 @@ To design and develop a versatile cell stretcher system for controlled mechanica
 ## Gallery  
 
 **Biaxial Cell Stretcher**  
-![Biaxial Cell Stretcher](/assets/images/cell-stretcher/biaxial.png)  
+![Biaxial Cell Stretcher](/assets/images/Lego_Cell_Stretcher.png)  
 
 **Actuation System**  
 ![Actuation System](/assets/images/cell-stretcher/actuators.png)  
