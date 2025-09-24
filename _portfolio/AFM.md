@@ -34,6 +34,4 @@ To quantify the **mechanical behavior of cardiac myofibrils** derived from human
 ## Outcome  
 - First study to characterize **viscoelastic properties of hiPSC-CM myofibrils**.  
 - Provides insights into the **mechanical behavior of heart muscle at the microscale**, with implications for disease modeling and therapy development.  
-- Published in the *Journal of Applied Mechanics*.  
-
-**DOI:** [10.1115/1.404XXXX](https://doi.org/10.1115/1.404XXXX)  <!-- Replace with actual DOI -->
+- Published in the *Journal of Applied Mechanics* (Q1).**DOI:** [10.1115/1.404XXXX](https://doi.org/10.1115/1.404XXXX)  <!-- Replace with actual DOI -->
