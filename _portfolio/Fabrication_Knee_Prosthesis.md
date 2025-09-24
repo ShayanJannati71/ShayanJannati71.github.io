@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Fabrication of a Series Elastic Knee Prosthesis"
-categories: [Design, fabrication, Mechatronics]
+categories: [fabrication]
 tags: [prosthesis, knee, series-elastic-actuator, motor-control, fabrication]
 excerpt: "Design and fabrication of a knee prosthesis using a series elastic actuator architecture, integrating electrical, mechanical, and control subsystems."
 header:
