@@ -5,7 +5,7 @@ categories: [fabrication]
 tags: [TFM, PDMS, Fluorescent Beads, Micropatterning, Substrate Fabrication, Imaging]
 layout: single
 header:
-  teaser: /assets/images/tfm-substrate/Slide7.png
+  teaser: /assets/images/Logo_TFM.png
 ---
 
 ## Objective  
@@ -21,7 +21,7 @@ To fabricate and optimize PDMS-based substrates embedded or functionalized with 
 
 ## TFM Imaging of Micropatterned Substrate  
 
-<img src="/assets/images/tfm-substrate/Image_TFM_1.png" alt="TFM imaging of micropatterned substrate" width="800"/>  
+<img src="/assets/images/TFM_Substrate_Topography.png" alt="TFM imaging of micropatterned substrate" width="800"/>  
 
 **Figure 1.** TFM imaging of micropatterned substrate. Top and bottom plane imaging show distribution of fluorescent beads across the patterned PDMS layer.  
 
@@ -29,7 +29,7 @@ To fabricate and optimize PDMS-based substrates embedded or functionalized with 
 
 ## Template Matching and Bead Distribution  
 
-<img src="/assets/images/tfm-substrate/Image_TFM_2.png" alt="Template matching and bead distribution" width="800"/>  
+<img src="/assets/images/tfm-substrate/TFM_Substrate_1.png" alt="Template matching and bead distribution" width="800"/>  
 
 **Figure 2.** Template matching analysis to align fluorescent bead distribution with micropattern geometry for accurate displacement tracking.  
 
@@ -37,7 +37,7 @@ To fabricate and optimize PDMS-based substrates embedded or functionalized with 
 
 ## Embedding and Functionalization Methods  
 
-<img src="/assets/images/tfm-substrate/Slide7.png" alt="Embedding and functionalization strategies" width="700"/>  
+<img src="/assets/images/tfm-substrate/TFM_Substrate_Fabrication_Methods.png" alt="Embedding and functionalization strategies" width="700"/>  
 
 **Figure 3.** Strategies for embedding and functionalizing fluorescent beads in PDMS substrates.  
 - **Panel A:** Embedding within PDMS using (i) DI water, (ii) methanol-based solution, or (iii) dried beads reconstituted in methanol.  
