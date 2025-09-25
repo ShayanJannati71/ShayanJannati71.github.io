@@ -8,3 +8,12 @@ author_profile: true
 Ph.D. in Mechanical Engineering (UBC) specializing in design, prototyping, and development of biomedical devices, with expertise in mechatronics, experimental testing, and advanced manufacturing methods.
 
 
+
+
+# Portfolio
+<div class="entries-grid">
+  {% assign entries = site.portfolio | sort: "date" | reverse %}
+  {% for post in entries %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+</div>
