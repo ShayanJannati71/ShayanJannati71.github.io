@@ -1,9 +1,9 @@
+
 ---
-title: "Home"
 layout: single
-permalink: /
 author_profile: true
 ---
+
 
 # 👋 Welcome
 Hi, I’m **Shayan Jannati**, a PhD researcher in Mechanical Engineering at UBC.  
