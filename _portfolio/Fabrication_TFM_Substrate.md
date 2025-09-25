@@ -40,8 +40,7 @@ To fabricate and optimize PDMS-based substrates embedded or functionalized with 
 ---
 
 ## Outcome  
-- Established reliable protocols for **embedding fluorescent beads** into PDMS substrates using different solvents (DI water, methanol, and reconstituted dried beads).  
-- Developed **surface functionalization strategies** (APTES-based coating, encapsulation with thin PDMS layers, and DMSO/PAA-assisted deposition).  
+
 - Identified **APTES-based functionalization** as the most consistent method for achieving uniform bead distribution.  
 - Enabled high-resolution TFM imaging for quantifying cellular traction forces on micropatterned substrates. 
 
