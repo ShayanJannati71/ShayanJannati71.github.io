@@ -13,11 +13,11 @@ This project focused on the **design and fabrication of a knee prosthesis protot
 
 ---
 
-## Electrical and Control Subsystems  
-Key components of the prosthesis include sensors, motor drivers, and embedded controllers for precise actuation and feedback.  
+## Series Elastic Actuator Concept  
+The SEA design places a compliant spring between the actuator and load, enabling torque sensing through deflection while reducing shock loads on the motor.  
 
-<img src="/assets/images/Knee_Prosthesis_Electrical_Parts.png" alt="Electrical and control components of the knee prosthesis" width="400"/>  
-*Figure 1: Electrical and control components, including encoders, driver boards, motor controller, and sensor modules used for signal acquisition and motor actuation.*  
+<img src="/assets/images/Knee_Prosthesis_Series_Elastic_Diagram.png" alt="Schematic of series elastic actuator design" width="700"/>  
+*Figure 3: Schematic diagram of the SEA system showing the motor, transmission, ballscrew, spring element, and output load.*  
 
 ---
 
@@ -29,11 +29,11 @@ The mechanical assembly consists of CNC-machined aluminum brackets, couplers, li
 
 ---
 
-## Series Elastic Actuator Concept  
-The SEA design places a compliant spring between the actuator and load, enabling torque sensing through deflection while reducing shock loads on the motor.  
+## Electrical and Control Subsystems  
+Key components of the prosthesis include sensors, motor drivers, and embedded controllers for precise actuation and feedback.  
 
-<img src="/assets/images/Knee_Prosthesis_Series_Elastic_Diagram.png" alt="Schematic of series elastic actuator design" width="700"/>  
-*Figure 3: Schematic diagram of the SEA system showing the motor, transmission, ballscrew, spring element, and output load.*  
+<img src="/assets/images/Knee_Prosthesis_Electrical_Parts.png" alt="Electrical and control components of the knee prosthesis" width="400"/>  
+*Figure 1: Electrical and control components, including encoders, driver boards, motor controller, and sensor modules used for signal acquisition and motor actuation.*  
 
 ---
 
