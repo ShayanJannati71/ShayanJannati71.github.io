@@ -2,6 +2,7 @@
 title: "Home"
 layout: single
 permalink: /
+author_profile: true
 ---
 
 # 👋 Welcome
@@ -11,14 +12,7 @@ My work bridges **biomedical device design, microfabrication, image and signal p
 ---
 
 # 🚀 Portfolio Highlights
-Here are some of my featured projects.  
-
-<div class="entries-grid">
-  {% assign entries = site.portfolio | sort: "date" | reverse | slice: 0,3 %}
-  {% for post in entries %}
-    {% include archive-single.html type="grid" %}
-  {% endfor %}
-</div>
+Here are some of my featured projects. 
 
 👉 [View Full Portfolio →](/portfolio/)  
 
