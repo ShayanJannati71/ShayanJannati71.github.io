@@ -51,6 +51,10 @@ To fabricate and optimize PDMS-based substrates embedded or functionalized with 
 - Coverslips were plasma-treated and coated with sacrificial or functional layers (e.g., PVA, PAA, APTES) to improve adhesion and control bead distribution.  
 - Imaging confirmed that **APTES-treated PDMS surfaces** yielded the most uniform fluorescent bead dispersion, supporting long-term live-cell imaging.  
 
+<video width="800" controls autoplay loop muted playsinline>
+  <source src="/assets/video/TFM_Substrate_Beads.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 ---
 
 ## Impact  
