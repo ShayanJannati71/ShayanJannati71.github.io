@@ -17,21 +17,6 @@ To fabricate and optimize PDMS-based substrates embedded or functionalized with 
 - Identified **APTES-based functionalization** as the most consistent method for achieving uniform bead distribution.  
 - Enabled high-resolution TFM imaging for quantifying cellular traction forces on micropatterned substrates.  
 
----
-
-## TFM Imaging of Micropatterned Substrate  
-
-<img src="/assets/images/TFM_Substrate_Topography.png" alt="TFM imaging of micropatterned substrate" width="800"/>  
-
-**Figure 1.** TFM imaging of micropatterned substrate. Top and bottom plane imaging show distribution of fluorescent beads across the patterned PDMS layer.  
-
----
-
-## Template Matching and Bead Distribution  
-
-<img src="/assets/images/TFM_Substrate_1.png" alt="Template matching and bead distribution" width="800"/>  
-
-**Figure 2.** Template matching analysis to align fluorescent bead distribution with micropattern geometry for accurate displacement tracking.  
 
 ---
 
@@ -42,6 +27,23 @@ To fabricate and optimize PDMS-based substrates embedded or functionalized with 
 **Figure 3.** Strategies for embedding and functionalizing fluorescent beads in PDMS substrates.  
 - **Panel A:** Embedding within PDMS using (i) DI water, (ii) methanol-based solution, or (iii) dried beads reconstituted in methanol.  
 - **Panel B:** Functionalization on PDMS surface via (i) APTES-based coating, (ii) encapsulation with thin PDMS layer, or (iii) DMSO/PAA-assisted deposition.  
+---
+
+## TFM Imaging of Micropatterned Substrate  
+<img src="/assets/images/TFM_Substrate_1.png" alt="Template matching and bead distribution" width="200"/>  
+
+
+**Figure 1.** TFM imaging of micropatterned substrate. Top and bottom plane imaging show distribution of fluorescent beads across the patterned PDMS layer.  
+
+---
+
+## Template Matching and Bead Distribution  
+
+
+<img src="/assets/images/TFM_Substrate_Topography.png" alt="TFM imaging of micropatterned substrate" width="800"/>  
+**Figure 2.** Template matching analysis to align fluorescent bead distribution with micropattern geometry for accurate displacement tracking.  
+
+
 
 ---
 
