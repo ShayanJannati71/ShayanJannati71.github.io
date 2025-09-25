@@ -11,11 +11,13 @@ header:
 ## Objective  
 To fabricate and optimize PDMS-based substrates embedded or functionalized with fluorescent beads for **traction force microscopy (TFM)** and live-cell mechanical studies.  
 
- 
+---
+
 ## Methods Summary  
 - Fluorescent beads (0.2 μm, Invitrogen FluoSpheres™) were dispersed in solvents (DI water, methanol, or DMSO) and incorporated into PDMS (Sylgard 184 or 527).  
-- Mixtures were homogenized, filtered, and cured under controlled conditions (60–65 °C) to ensure bead stability and substrate uniformity. - Coverslips were plasma-treated and coated with sacrificial or functional layers (e.g., PVA, PAA, APTES) to improve adhesion and control bead distribution.  
-- Imaging confirmed that **APTES-treated PDMS surfaces** yielded the most uniform fluorescent bead dispersion, supporting long-term live-cell imaging.
+- Mixtures were homogenized, filtered, and cured under controlled conditions (60–65 °C) to ensure bead stability and substrate uniformity.  
+- Coverslips were plasma-treated and coated with sacrificial or functional layers (e.g., PVA, PAA, APTES) to improve adhesion and control bead distribution.  
+- Imaging confirmed that **APTES-treated PDMS surfaces** yielded the most uniform fluorescent bead dispersion, supporting long-term live-cell imaging.  
 
 ---
 
@@ -23,27 +25,35 @@ To fabricate and optimize PDMS-based substrates embedded or functionalized with 
 
 <img src="/assets/images/TFM_Substrate_Fabrication_Methods.png" alt="Embedding and functionalization strategies" width="700"/>  
 
-**Figure 1.** Strategies for embedding and functionalizing fluorescent beads in PDMS substrates. Panel A: Embedding within PDMS using (i) DI water, (ii) methanol-based solution, or (iii) dried beads reconstituted in methanol. Panel B: Functionalization on PDMS surface via (i) APTES-based coating, (ii) encapsulation with thin PDMS layer, or (iii) DMSO/PAA-assisted deposition.  
+**Figure 1.** Strategies for embedding and functionalizing fluorescent beads in PDMS substrates.  
+Panel A: Embedding within PDMS using (i) DI water, (ii) methanol-based solution, or (iii) dried beads reconstituted in methanol.  
+Panel B: Functionalization on PDMS surface via (i) APTES-based coating, (ii) encapsulation with thin PDMS layer, or (iii) DMSO/PAA-assisted deposition.  
+
 ---
 
 ## Template Matching and Bead Distribution  
-<img src="/assets/images/TFM_Substrate_Topography.png" alt="TFM imaging of micropatterned substrate" width="800"/>
 
-**Figure 2.** TFM imaging of micropatterned substrate. Top and bottom plane imaging show distribution of fluorescent beads across the patterned PDMS layer.
+<img src="/assets/images/TFM_Substrate_Topography.png" alt="TFM imaging of micropatterned substrate" width="800"/>  
+
+**Figure 2.** TFM imaging of micropatterned substrate.  
+Top and bottom plane imaging show distribution of fluorescent beads across the patterned PDMS layer.  
 
 ---
 
 <video width="400" controls autoplay loop muted playsinline>
   <source src="/assets/video/TFM_Substrate_Beads.mp4" type="video/mp4">
   Your browser does not support the video tag.
-</video>
+</video>  
+
 ---
 
 ## Outcome  
-
 - Identified **APTES-based functionalization** as the most consistent method for achieving uniform bead distribution.  
-- Enabled high-resolution TFM imaging for quantifying cellular traction forces on micropatterned substrates. 
+- Enabled high-resolution TFM imaging for quantifying cellular traction forces on micropatterned substrates.  
+
+---
 
 ## Impact  
 These optimized substrates enable **traction force microscopy on micropatterned cardiac cell platforms**, improving measurement accuracy of cell-generated stresses.  
 They provide a reproducible and scalable fabrication route for **biomechanics, drug screening, and cardiac tissue engineering applications**.  
+
