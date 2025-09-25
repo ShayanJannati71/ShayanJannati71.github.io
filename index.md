@@ -1,19 +1,39 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+title: "Home"
 layout: single
-author_profile: true
+permalink: /
 ---
-Ph.D. in Mechanical Engineering (UBC) specializing in design, prototyping, and development of biomedical devices, with expertise in mechatronics, experimental testing, and advanced manufacturing methods.
 
+# 👋 Welcome
+Hi, I’m **Shayan Jannati**, a PhD researcher in Mechanical Engineering at UBC.  
+My work bridges **biomedical device design, microfabrication, image and signal processing, and simulation** to create innovative tools for cardiac research and medical technologies.  
 
+---
 
+# 🚀 Portfolio Highlights
+Here are some of my featured projects.  
 
-# Portfolio
 <div class="entries-grid">
-  {% assign entries = site.portfolio | sort: "date" | reverse %}
+  {% assign entries = site.portfolio | sort: "date" | reverse | slice: 0,3 %}
   {% for post in entries %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 </div>
+
+👉 [View Full Portfolio →](/portfolio/)  
+
+---
+
+# 🧑‍🔬 Research Interests
+- Biomedical device design and prototyping (cell stretchers, biosensors, substrates)  
+- Microfabrication and advanced materials for cardiac applications  
+- Image & signal processing pipelines (fluorescence imaging, EMG, traction force microscopy)  
+- Modeling and simulation (FEA, Abaqus, hyperelastic modeling)  
+
+---
+
+# 📫 Connect with Me
+- [LinkedIn](https://www.linkedin.com/in/shayan-jannati-172581b2/)  
+- [GitHub](https://github.com/ShayanJannati71)  
+- 📧 shayanjannati71@gmail.com  
+
