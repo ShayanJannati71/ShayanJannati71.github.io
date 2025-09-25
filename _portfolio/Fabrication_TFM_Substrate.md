@@ -29,7 +29,7 @@ To fabricate and optimize PDMS-based substrates embedded or functionalized with 
 
 ## Template Matching and Bead Distribution  
 
-<img src="/assets/images/tfm-substrate/TFM_Substrate_1.png" alt="Template matching and bead distribution" width="800"/>  
+<img src="/assets/images/TFM_Substrate_1.png" alt="Template matching and bead distribution" width="800"/>  
 
 **Figure 2.** Template matching analysis to align fluorescent bead distribution with micropattern geometry for accurate displacement tracking.  
 
@@ -37,7 +37,7 @@ To fabricate and optimize PDMS-based substrates embedded or functionalized with 
 
 ## Embedding and Functionalization Methods  
 
-<img src="/assets/images/tfm-substrate/TFM_Substrate_Fabrication_Methods.png" alt="Embedding and functionalization strategies" width="700"/>  
+<img src="/assets/images/TFM_Substrate_Fabrication_Methods.png" alt="Embedding and functionalization strategies" width="700"/>  
 
 **Figure 3.** Strategies for embedding and functionalizing fluorescent beads in PDMS substrates.  
 - **Panel A:** Embedding within PDMS using (i) DI water, (ii) methanol-based solution, or (iii) dried beads reconstituted in methanol.  
@@ -51,7 +51,7 @@ To fabricate and optimize PDMS-based substrates embedded or functionalized with 
 - Coverslips were plasma-treated and coated with sacrificial or functional layers (e.g., PVA, PAA, APTES) to improve adhesion and control bead distribution.  
 - Imaging confirmed that **APTES-treated PDMS surfaces** yielded the most uniform fluorescent bead dispersion, supporting long-term live-cell imaging.  
 
-<video width="800" controls autoplay loop muted playsinline>
+<video width="400" controls autoplay loop muted playsinline>
   <source src="/assets/video/TFM_Substrate_Beads.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
