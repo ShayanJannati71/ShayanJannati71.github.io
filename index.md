@@ -17,12 +17,12 @@ Here are some of my featured projects.
 
 ---
 
-# Research Interests
-- Biomedical device design and prototyping (cell stretchers, biosensors, substrates)  
-- Microfabrication and advanced materials for cardiac applications  
-- Image & signal processing pipelines (fluorescence imaging, EMG, traction force microscopy)  
-- Modeling and simulation (FEA, Abaqus, hyperelastic modeling)  
+# Expertise & Focus Areas
 
+	- Biomedical device design & prototyping – development of cell stretcher, biosensors, prosthetic systems, and testbeds for healthcare applications
+	- Microfabrication & soft lithography – fabrication of micropatterned substrates, surface modification, bonding, and advanced materials integration
+	- Image & signal processing – pipelines for EMG, IMU, fluorescence imaging, and traction force microscopy
+	- Modeling & simulation – finite element analysis (FEA), Abaqus-based modeling, viscoelastic/hyperelastic material characterization, and system-level design optimization  
 ---
 
 # Connect with Me
