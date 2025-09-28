@@ -19,13 +19,13 @@ Here are some of my featured projects.
 
 # Expertise & Focus Areas
 
-- Biomedical device design & prototyping
+- ## Biomedical device design & prototyping ##
 Experience developing cell stretchers, biosensors, prosthetic systems, and fluidic testbeds for healthcare applications.
-- Microfabrication & soft lithography
+- ## Microfabrication & soft lithography ##
 Skilled in fabricating micropatterned substrates, surface modification, bonding techniques, and advanced materials integration.
-- Image & signal processing
+- ## Image & signal processing ##
 Developed pipelines for analyzing EMG and IMU data, fluorescence imaging, and traction force microscopy.
-- Modeling & simulation
+- ## Modeling & simulation ##
 Proficient in finite element analysis (FEA), Abaqus-based mechanical modeling, viscoelastic and hyperelastic material characterization, and system-level design optimization.
 ---
 
