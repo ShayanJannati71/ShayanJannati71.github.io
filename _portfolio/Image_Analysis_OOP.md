@@ -13,7 +13,7 @@ Develop an automated pipeline to measure the orientation of cardiac cells cultur
 
 ---
 
-## Outcome *(in progress)*  
+## Outcome
 - Provides objective and reproducible **orientation metrics** of cardiac cells.  
 - Enables **high-throughput screening** of alignment across substrate conditions.  
 - Supports investigation of how microenvironmental cues guide **cellular organization**.  
