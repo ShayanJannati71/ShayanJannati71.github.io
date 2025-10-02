@@ -27,6 +27,7 @@ Skilled in fabricating micropatterned substrates, surface modification, bonding 
 Developed pipelines for analyzing EMG and IMU data, fluorescence imaging, and traction force microscopy.
 - ## Modeling & simulation ##
 Proficient in finite element analysis (FEA), Abaqus-based mechanical modeling, viscoelastic and hyperelastic material characterization, and system-level design optimization.
+
 ---
 
 # Connect with Me
