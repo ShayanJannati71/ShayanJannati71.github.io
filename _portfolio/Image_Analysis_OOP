@@ -20,7 +20,7 @@ Develop an automated pipeline for measuring the orientation of cardiac cells cul
 
 ## Workflow  
 
-<img src="/assets/images/Image_Analysis_OOP_1.png" alt="Cardiac cell orientation workflow" width="500"/>  
+![Cardiac cell orientation workflow](/assets/images/Image_Analysis_OOP_1.png){: width="500"}  
 
 **Figure 1.** Image processing workflow for cardiac cell orientation measurement. The pipeline integrates filtering, morphological operations, object detection, and orientation analysis to generate orientational maps and order parameters.  
 
@@ -28,7 +28,7 @@ Develop an automated pipeline for measuring the orientation of cardiac cells cul
 
 ## Results  
 
-<img src="/assets/images/Image_Analysis_OOP_2.png" alt="Orientation measurement results" width="900"/>  
+![Orientation measurement results](/assets/images/Image_Analysis_OOP_2.png){: width="900"}  
 
 **Figure 2.** Representative results of orientation analysis:  
 - (i) Original α-actinin2 (green) images with nuclei (blue).  
@@ -38,7 +38,6 @@ Develop an automated pipeline for measuring the orientation of cardiac cells cul
 
 ---
 
-## Impact  
+## Conclusion  
 This automated workflow provides a robust method to **quantify cardiac cell orientation** at scale.  
 It can be applied to optimize **micropatterning strategies**, evaluate **substrate designs**, and study **mechanobiological responses** in cardiac tissue engineering.  
-
