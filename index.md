@@ -19,7 +19,7 @@ Here are some of my featured projects.
 
 # Expertise & Focus Areas
 
-- ## Biomedical device design & prototyping ##
+- ## Device design & prototyping ##
 Experience developing cell stretchers, biosensors, prosthetic systems, and fluidic testbeds for healthcare applications.
 - ## Microfabrication & soft lithography ##
 Skilled in fabricating micropatterned substrates, surface modification, bonding techniques, and advanced materials integration.
