@@ -5,8 +5,8 @@ author_profile: true
 ---
 
 # Welcome
-Hi, I’m **Shayan Jannati**, a PhD researcher and engineer in Mechanical Engineering at UBC.  
-My work bridges **biomedical device design, microfabrication, image and signal processing, and simulation** to create innovative tools for cardiac research and medical technologies.  
+Hi, I’m **Shayan Jannati**, a Mechanical Engineer with a PhD from UBC.  
+My work spans **mechanical and electromechanical system design, prototyping, testing, and data-driven analysis**, focused on building reliable, real-world hardware systems..  
 
 ---
 
