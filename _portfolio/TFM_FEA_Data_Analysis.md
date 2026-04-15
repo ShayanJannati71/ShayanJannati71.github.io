@@ -10,40 +10,60 @@ header:
 ---
 
 ## Objective  
-To develop a robust data analysis pipeline for converting **fluorescence microscopy data into quantitative mechanical information**, including displacement fields and stress distributions.
+To develop a robust data analysis pipeline for converting **fluorescence microscopy data into quantitative mechanical insights**, including displacement fields and stress distributions.
 
 ---
 
 ## Experimental Setup  
-- Time-lapse fluorescence imaging was used to capture **motion of embedded fluorescent beads**.  
-- Particle tracking algorithms (Trackpy) were applied to extract **displacement vectors across frames**.  
-- Displacement data were filtered, interpolated, and mapped into a structured grid.  
-- Processed data were used as input for **finite element-based stress reconstruction**.  
+- Time-lapse confocal fluorescence imaging was used to capture **motion of embedded fluorescent beads**.  
+- A template-matching approach was applied to define the **region of interest (ROI)** on micropatterned substrates.  
+- Particle tracking algorithms (Trackpy) were used to extract **displacement vectors across time frames**.  
+- Processed displacement data were used for **kinetic analysis and stress reconstruction**.  
 
-<img src="/assets/images/TFM_Displacement_Workflow.png" alt="TFM data processing workflow" width="700"/>  
-*Figure 1: Data analysis pipeline from fluorescence imaging → particle tracking → displacement field reconstruction → stress estimation.*  
+---
+
+## ROI Definition and Image Preprocessing  
+
+<img src="/assets/images/TFM_FEA.png" alt="ROI definition using template matching" width="800"/>  
+
+*Figure 1. ROI selection using template matching. A template representing the micropattern geometry is matched to fluorescence images to define a consistent region of interest (ROI). The cropped ROI ensures accurate and repeatable displacement tracking across datasets.*  
+
+---
+
+## Kinematic Analysis of Displacement Fields  
+
+<img src="/assets/images/TFM_Displacement_Kinetics.png" alt="Displacement and velocity analysis" width="800"/>  
+
+*Figure 2. Displacement and velocity analysis of tracked bead motion. (A) Reference frame selection based on displacement magnitude. (B) Displacement evolution showing contraction and relaxation phases. (C) Velocity analysis highlighting peak contraction and relaxation rates.*  
+
+---
+
+## Data Processing and Stress Reconstruction Workflow  
+
+<img src="/assets/images/TFM_Data_Workflow.png" alt="Data processing workflow" width="800"/>  
+
+*Figure 3. Data processing workflow for displacement and stress analysis. Displacement fields from top and bottom planes are processed over time, subdivided into regions of interest (ROIs), and aggregated to extract representative displacement and stress metrics. Stress reconstruction is performed using finite element simulation outputs.*  
 
 ---
 
 ## Key Findings  
-- Optimized particle tracking parameters significantly improved **displacement accuracy and robustness**.  
-- Data filtering and interpolation reduced noise and enabled **stable stress reconstruction**.  
-- The pipeline enabled consistent analysis across multiple datasets and experimental conditions.  
-
-<img src="/assets/images/TFM_Displacement_Field.png" alt="Displacement field from bead tracking" width="700"/>  
-*Figure 2: Displacement field extracted from fluorescent bead motion across the substrate.*  
+- Template matching enables **consistent ROI selection** across complex micropatterned geometries.  
+- Optimized particle tracking improves **accuracy and robustness of displacement fields**.  
+- Time-resolved analysis captures **contraction–relaxation dynamics** of the system.  
+- ROI-based aggregation improves stability and reduces noise in **stress reconstruction**.  
 
 ---
 
 ## Outcome  
-- Developed a reproducible pipeline for extracting **high-resolution displacement fields**.  
-- Enabled transformation of imaging data into **quantitative stress and deformation maps**.  
-- Integrated data analysis with computational modeling for end-to-end force quantification.  
+- Developed a reproducible pipeline for extracting **high-resolution displacement fields from imaging data**.  
+- Enabled transformation of fluorescence imaging into **quantitative mechanical measurements**.  
+- Integrated data analysis with computational modeling for **end-to-end biomechanics analysis**.  
 
 ---
 
 ## Engineering Contributions  
-- Image processing and particle tracking (Python, MATLAB)  
-- Data filtering and interpolation  
-- Displacement field reconstruction  
+- Image processing and ROI definition  
+- Particle tracking and displacement extraction  
+- Time-series analysis and signal processing  
+- Data aggregation and noise reduction  
 - Integration with finite element modeling workflows  
