@@ -5,7 +5,7 @@ categories: [image-data-analysis]
 tags: [TFM, FEA, Fluorescence Microscopy, MATLAB, Python, Abaqus]
 layout: single
 header:
-  teaser: /assets/images/tfmfea/teaser.png
+  teaser: /assets/images/TFM_FEA_Graphical_Abstract.png
 ---
 
 ## Objective  
