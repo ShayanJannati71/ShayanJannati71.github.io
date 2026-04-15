@@ -1,42 +1,51 @@
 ---
-title: "TFM–FEA Integrated Workflow for Quantifying Cellular Forces"
-excerpt: "Developed a full experimental–computational pipeline combining dual-plane imaging, particle tracking, and finite element analysis to quantify stress distribution on micropatterned substrates."
-categories: [image-data-analysis]
-tags: [TFM, FEA, Fluorescence Microscopy, MATLAB, Python, Abaqus]
 layout: single
+title: "TFM–FEA Integrated Workflow for Quantifying Cellular Forces"
+excerpt: "Developed an experimental–computational pipeline combining dual-plane fluorescence imaging, particle tracking, and finite element analysis (FEA) to reconstruct stress fields on micropatterned substrates."
+categories: [Modeling-Simulation]
+tags: [TFM, FEA, fluorescence microscopy, MATLAB, Python, Abaqus, biomechanics]
+
 header:
-teaser: /assets/images/TFM_FEA_Graphical_Abstract.png
+  teaser: /assets/images/TFM_FEA_Graphical_Abstract.png
 ---
 
 ## Objective  
-Develop an end-to-end system to quantify cellular forces on non-planar micropatterned substrates by integrating traction force microscopy (TFM) with finite element analysis (FEA).
+To develop an integrated workflow for quantifying **cell-generated forces on non-planar micropatterned substrates** by combining **traction force microscopy (TFM)** with **finite element analysis (FEA)**.
 
+---
 
-Methods Summary
-- Dual-plane fluorescence imaging (top and bottom surfaces) was used to capture bead displacement.
-- Particle tracking algorithms were applied to compute displacement fields.
-- Displacement data were interpolated into a unified plane.
-- Abaqus-based FEA was used to reconstruct stress and strain energy density fields.
+## Experimental Setup  
+- Dual-plane fluorescence imaging was used to capture bead displacement at the **top and bottom surfaces** of the micropatterned substrate.  
+- Particle tracking algorithms were applied to determine **displacement fields** from fluorescent bead motion.  
+- Displacement data from both planes were interpolated into a unified plane and mapped into **Abaqus** as boundary conditions.  
+- Finite element analysis was used to reconstruct **stress fields** and **strain energy density**.  
 
-<img src="/assets/images/TFM_FEA_Imaging_Workflow.png" width="700"/>
+<img src="/assets/images/TFM_FEA_Imaging_Workflow.png" alt="Integrated TFM-FEA workflow" width="700"/>  
+*Figure 1: Integrated workflow combining dual-plane imaging, particle tracking, displacement interpolation, and finite element modeling for stress reconstruction.*  
 
-** Figure 1** . Integrated pipeline: imaging → particle tracking → displacement interpolation → finite element modeling → stress reconstruction.
+---
 
-## Outcome
-- Developed a robust TFM–FEA pipeline for non-planar substrates
-- Enabled quantitative analysis of cellular forces in engineered environments
-- Integrated experimental imaging with computational modeling
+## Key Findings  
+- Developed a robust **TFM–FEA pipeline** for force quantification on non-planar substrates.  
+- Dual-plane imaging improved displacement reconstruction across **micropatterned geometries**.  
+- The workflow enabled spatial mapping of **stress distribution** and **strain energy density** in engineered substrates.  
 
-⸻
+<img src="/assets/images/TFM_FEA_Graphical_Abstract.png" alt="TFM-FEA graphical abstract" width="700"/>  
+*Figure 2: Overview of the integrated experimental–computational framework for quantifying cellular mechanics on micropatterned substrates.*  
 
-## Impact
+---
 
-This system enables quantitative biomechanics analysis in complex geometries and provides a scalable framework for biomaterials design, organ-on-chip systems, and medical device testing.
+## Outcome  
+- Established a complete **experimental–computational biomechanics workflow**.  
+- Enabled quantitative analysis of cellular force transmission in engineered microenvironments.  
+- Integrated imaging, data processing, and simulation into a single reproducible framework.  
+- Published in *Biofabrication* (2026). **DOI:** [10.1088/1758-5090/ae573e](https://doi.org/10.1088/1758-5090/ae573e)
 
-⸻
+---
 
-## Engineering Contributions
-- Experimental system design
-- Image-based displacement tracking
-- Finite element modeling (Abaqus)
-- End-to-end system integration
+## Engineering Contributions  
+- Experimental system design  
+- Image-based displacement tracking  
+- Data interpolation and preprocessing  
+- Finite element modeling in Abaqus  
+- End-to-end workflow integration
