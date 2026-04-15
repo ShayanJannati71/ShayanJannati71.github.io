@@ -5,7 +5,7 @@ categories: [image-data-analysis]
 tags: [TFM, FEA, Fluorescence Microscopy, MATLAB, Python, Abaqus]
 layout: single
 header:
-  teaser: /assets/images/TFM_FEA_Graphical_Abstract.png
+	teaser: /assets/images/TFM_FEA_Graphical_Abstract.png
 ---
 
 ## Objective  
@@ -13,19 +13,19 @@ Develop an end-to-end system to quantify cellular forces on non-planar micropatt
 
 
 Methods Summary
-	•	Dual-plane fluorescence imaging (top and bottom surfaces) was used to capture bead displacement.
-	•	Particle tracking algorithms were applied to compute displacement fields.
-	•	Displacement data were interpolated into a unified plane.
-	•	Abaqus-based FEA was used to reconstruct stress and strain energy density fields.
+- Dual-plane fluorescence imaging (top and bottom surfaces) was used to capture bead displacement.
+- Particle tracking algorithms were applied to compute displacement fields.
+- Displacement data were interpolated into a unified plane.
+- Abaqus-based FEA was used to reconstruct stress and strain energy density fields.
 
 <img src="/assets/images/TFM_FEA_Imaging_Workflow.png" width="700"/>
 
 ** Figure 1** . Integrated pipeline: imaging → particle tracking → displacement interpolation → finite element modeling → stress reconstruction.
 
 ## Outcome
-	•	Developed a robust TFM–FEA pipeline for non-planar substrates
-	•	Enabled quantitative analysis of cellular forces in engineered environments
-	•	Integrated experimental imaging with computational modeling
+- Developed a robust TFM–FEA pipeline for non-planar substrates
+- Enabled quantitative analysis of cellular forces in engineered environments
+- Integrated experimental imaging with computational modeling
 
 ⸻
 
@@ -36,7 +36,7 @@ This system enables quantitative biomechanics analysis in complex geometries and
 ⸻
 
 ## Engineering Contributions
-	•	Experimental system design
-	•	Image-based displacement tracking
-	•	Finite element modeling (Abaqus)
-	•	End-to-end system integration
+- Experimental system design
+- Image-based displacement tracking
+- Finite element modeling (Abaqus)
+- End-to-end system integration
