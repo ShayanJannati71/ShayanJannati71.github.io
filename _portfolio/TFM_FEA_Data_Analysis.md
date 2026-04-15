@@ -24,7 +24,7 @@ To develop a robust data analysis pipeline for converting **fluorescence microsc
 
 ## ROI Definition and Image Preprocessing  
 
-<img src="/assets/images/TFM_FEA.png" alt="ROI definition using template matching" width="800"/>  
+<img src="/assets/images/TFM_FEA_Template_Matching.png" alt="ROI definition using template matching" width="800"/>  
 
 *Figure 1. ROI selection using template matching. A template representing the micropattern geometry is matched to fluorescence images to define a consistent region of interest (ROI). The cropped ROI ensures accurate and repeatable displacement tracking across datasets.*  
 
@@ -32,7 +32,7 @@ To develop a robust data analysis pipeline for converting **fluorescence microsc
 
 ## Kinematic Analysis of Displacement Fields  
 
-<img src="/assets/images/TFM_Displacement_Kinetics.png" alt="Displacement and velocity analysis" width="800"/>  
+<img src="/assets/images/TFM_FEA_Kinetic_Analysis.png" alt="Displacement and velocity analysis" width="800"/>  
 
 *Figure 2. Displacement and velocity analysis of tracked bead motion. (A) Reference frame selection based on displacement magnitude. (B) Displacement evolution showing contraction and relaxation phases. (C) Velocity analysis highlighting peak contraction and relaxation rates.*  
 
@@ -40,7 +40,7 @@ To develop a robust data analysis pipeline for converting **fluorescence microsc
 
 ## Data Processing and Stress Reconstruction Workflow  
 
-<img src="/assets/images/TFM_Data_Workflow.png" alt="Data processing workflow" width="800"/>  
+<img src="/assets/images/TFM_FEA_Data_Analysis.png" alt="Data processing workflow" width="800"/>  
 
 *Figure 3. Data processing workflow for displacement and stress analysis. Displacement fields from top and bottom planes are processed over time, subdivided into regions of interest (ROIs), and aggregated to extract representative displacement and stress metrics. Stress reconstruction is performed using finite element simulation outputs.*  
 
