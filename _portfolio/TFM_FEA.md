@@ -1,53 +1,42 @@
 ---
-title: "TFM–FEA Platform for Quantifying Cellular Forces on Micropatterned Substrates"
-excerpt: "An integrated experimental–computational framework combining dual-plane imaging, particle tracking, and finite element analysis to reconstruct stress fields in engineered substrates."
+title: "TFM–FEA Integrated Workflow for Quantifying Cellular Forces"
+excerpt: "Developed a full experimental–computational pipeline combining dual-plane imaging, particle tracking, and finite element analysis to quantify stress distribution on micropatterned substrates."
 categories: [image-data-analysis]
-tags: [TFM, Finite Element Analysis, MATLAB, Python, Abaqus, Biomedical Engineering]
+tags: [TFM, FEA, Fluorescence Microscopy, MATLAB, Python, Abaqus]
 layout: single
 header:
-  teaser: /assets/images/tfmfea_teaser.png
+  teaser: /assets/images/tfmfea/teaser.png
 ---
 
 ## Objective  
-Develop a robust platform to quantify cellular forces on non-planar substrates by integrating traction force microscopy (TFM) with finite element analysis (FEA). 
+Develop an end-to-end system to quantify cellular forces on non-planar micropatterned substrates by integrating traction force microscopy (TFM) with finite element analysis (FEA).
 
 
+Methods Summary
+	•	Dual-plane fluorescence imaging (top and bottom surfaces) was used to capture bead displacement.
+	•	Particle tracking algorithms were applied to compute displacement fields.
+	•	Displacement data were interpolated into a unified plane.
+	•	Abaqus-based FEA was used to reconstruct stress and strain energy density fields.
 
-## Embedding and Functionalization Methods  
+<img src="/assets/images/TFM_FEA_Imaging_Workflow.png" width="700"/>
 
-<img src="/assets/images/TFM_Substrate_Fabrication_Methods.png" alt="Embedding and functionalization strategies" width="700"/>  
+** Figure 1** . Integrated pipeline: imaging → particle tracking → displacement interpolation → finite element modeling → stress reconstruction.
 
-**Figure 1.** Strategies for embedding and functionalizing fluorescent beads in PDMS substrates.  
-Panel A: Embedding within PDMS using (i) DI water, (ii) methanol-based solution, or (iii) dried beads reconstituted in methanol.  
-Panel B: Functionalization on PDMS surface via (i) APTES-based coating, (ii) encapsulation with thin PDMS layer, or (iii) DMSO/PAA-assisted deposition.  
+## Outcome
+	•	Developed a robust TFM–FEA pipeline for non-planar substrates
+	•	Enabled quantitative analysis of cellular forces in engineered environments
+	•	Integrated experimental imaging with computational modeling
 
----
+⸻
 
-## Template Matching and Bead Distribution  
+## Impact
 
-<img src="/assets/images/TFM_Substrate_Topography.png" alt="TFM imaging of micropatterned substrate" width="800"/>  
+This system enables quantitative biomechanics analysis in complex geometries and provides a scalable framework for biomaterials design, organ-on-chip systems, and medical device testing.
 
-**Figure 2.** TFM imaging of micropatterned substrate.  
-Top and bottom plane imaging show distribution of fluorescent beads across the patterned PDMS layer.  
+⸻
 
----
-
-<video width="400" controls autoplay loop muted playsinline>
-  <source src="/assets/video/TFM_Substrate_Beads.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>  
-
----
-
-## Outcome  
-	•	Developed a full pipeline from imaging → displacement → stress reconstruction
-	•	Enabled accurate force quantification on micropatterned (non-planar) substrates
-	•	Reduced reliance on analytical Green’s functions (not applicable for complex geometries) 
-
----
-
-## Impact  
-These optimized substrates enable **traction force microscopy on micropatterned cardiac cell platforms**, improving measurement accuracy of cell-generated stresses.  
-They provide a reproducible and scalable fabrication route for **biomechanics, drug screening, and cardiac tissue engineering applications**.  
-
-
+## Engineering Contributions
+	•	Experimental system design
+	•	Image-based displacement tracking
+	•	Finite element modeling (Abaqus)
+	•	End-to-end system integration
