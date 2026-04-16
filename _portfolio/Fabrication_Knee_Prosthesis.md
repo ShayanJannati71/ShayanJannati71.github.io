@@ -1,10 +1,15 @@
 ---
-layout: single
+layout: splash
 title: "Fabrication of a Series Elastic Knee Prosthesis"
 categories: [fabrication]
-tags: [prosthesis, knee, series-elastic-actuator, motor-control, fabrication]
-excerpt: "Design and fabrication of a knee prosthesis using a series elastic actuator architecture, integrating electrical, mechanical, and control subsystems."
+tags: [prosthesis, knee, series-elastic-actuator, mechatronics, system-integration]
+
+excerpt: "Designed and fabricated a series elastic actuator-based knee prosthesis, integrating mechanical design, actuation, and control subsystems for compliant and adaptive motion."
+
 header:
+  overlay_image: /assets/images/Logo_Fabrication_Knee_Prosthesis.png
+  overlay_filter: 0.4
+  caption: "Series elastic actuator-based knee prosthesis integrating mechanical, electrical, and control systems"
   teaser: /assets/images/Logo_Fabrication_Knee_Prosthesis.png
 ---
 
