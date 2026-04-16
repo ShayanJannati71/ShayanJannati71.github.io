@@ -1,11 +1,16 @@
 ---
+layout: splash
 title: "Fabrication of Soft Micropatterned Substrate for Studying Heart Diseases"
-excerpt: "Engineered a soft micropatterned platform to enhance structural and functional maturation of lab-grown cardiomyocytes."
 categories: [fabrication]
-tags: [hiPSC-CM, microfabrication, biomaterials]
-layout: single
+tags: [hiPSC-CM, microfabrication, biomaterials, cardiac tissue engineering]
+
+excerpt: "Designed and fabricated a soft micropatterned substrate to enhance structural and functional maturation of cardiomyocytes, enabling controlled studies of cardiac mechanics and disease models."
+
 header:
- teaser: /assets/images/Micropatterned_Substrate_1.png
+  overlay_image: /assets/images/Micropatterned_Substrate_1.png
+  overlay_filter: 0.4
+  caption: "Soft micropatterned substrate engineered to control cellular alignment and mechanical behavior of cardiomyocytes"
+  teaser: /assets/images/Micropatterned_Substrate_1.png
 ---
 
 ## Overview
