@@ -1,10 +1,15 @@
 ---
+layout: splash
 title: "Automated Mitochondrial Characterization in Cardiac Cells"
-excerpt: "Developed an automated pipeline for mitochondrial segmentation and quantification in hiPSC-CMs using multi-channel fluorescence imaging."
 categories: [image-data-analysis]
-tags: [Image Analysis, Fluorescence Microscopy, Mitochondria, Cardiac Cells, MATLAB, CellProfiler]
-layout: single
+tags: [image analysis, fluorescence microscopy, mitochondria, cardiac cells, MATLAB, CellProfiler]
+
+excerpt: "Developed an automated image analysis pipeline for segmentation and quantitative characterization of mitochondria in hiPSC-derived cardiomyocytes using multi-channel fluorescence imaging."
+
 header:
+  overlay_image: /assets/images/Logo_Mitochondria.png
+  overlay_filter: 0.4
+  caption: "Automated segmentation and quantitative analysis of mitochondrial structure in cardiac cells"
   teaser: /assets/images/Logo_Mitochondria.png
 ---
 
