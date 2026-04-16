@@ -3,24 +3,65 @@
 ---
 @import "minimal-mistakes";
 
+/* WIDER PAGE */
 .page__inner-wrap,
 .page__content {
   max-width: 1500px !important;
 }
 
+/* FEATURED PROJECT */
+.page__content .featured-grid {
+  display: grid !important;
+  grid-template-columns: 1fr !important;
+  gap: 1.25rem !important;
+  margin-bottom: 2.5rem;
+}
+
+.page__content .portfolio-card.featured {
+  background: #fff;
+  border-radius: 12px;
+  padding: 0.9rem;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.page__content .portfolio-card.featured img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+  margin-bottom: 0.9rem;
+}
+
+.page__content .portfolio-card.featured h2 {
+  margin: 0 0 0.5rem 0;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+.page__content .portfolio-card.featured h2 a {
+  text-decoration: none;
+}
+
+.page__content .portfolio-card.featured h2 a:hover {
+  text-decoration: underline;
+}
+
+.page__content .portfolio-card.featured p {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  max-width: 950px;
+  color: #444;
+}
+
+/* STANDARD PORTFOLIO GRID */
 .page__content .portfolio-grid {
   display: grid !important;
   grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
   gap: 1.25rem !important;
   margin-bottom: 2rem;
   align-items: start;
-}
-
-.page__content .featured-grid {
-  display: grid !important;
-  grid-template-columns: 1fr !important;
-  gap: 1.25rem !important;
-  margin-bottom: 2.5rem;
 }
 
 .page__content .portfolio-card {
@@ -48,14 +89,16 @@
 
 .page__content .portfolio-card h3 {
   margin: 0 0 0.45rem 0;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   line-height: 1.25;
 }
 
-.page__content .portfolio-card h2 {
-  margin: 0 0 0.6rem 0;
-  font-size: 2rem;
-  line-height: 1.2;
+.page__content .portfolio-card h3 a {
+  text-decoration: none;
+}
+
+.page__content .portfolio-card h3 a:hover {
+  text-decoration: underline;
 }
 
 .page__content .portfolio-card p {
@@ -65,21 +108,13 @@
   color: #444;
 }
 
-.page__content .portfolio-card.featured img {
-  height: 420px;
-}
-
-.page__content .portfolio-card.featured p {
-  font-size: 1.05rem;
-  line-height: 1.6;
-  max-width: 900px;
-}
-
+/* SECTION TITLES */
 .page__content h2 {
   margin-top: 1.8rem;
   margin-bottom: 0.8rem;
 }
 
+/* RESPONSIVE */
 @media (max-width: 1100px) {
   .page__content .portfolio-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
@@ -101,5 +136,9 @@
 
   .page__content .portfolio-card.featured img {
     height: 220px;
+  }
+
+  .page__content .portfolio-card.featured h2 {
+    font-size: 1.5rem;
   }
 }
