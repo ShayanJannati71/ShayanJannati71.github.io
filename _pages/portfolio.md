@@ -10,7 +10,15 @@ classes: wide
   {% assign entries = site.portfolio | where_exp: "item", "item.categories contains 'fabrication'" | sort: "date" | reverse %}
   {% for post in entries %}
     <div class="portfolio-card">
-      {% include archive-single.html %}
+      {% if post.header.teaser %}
+        <a href="{{ post.url | relative_url }}">
+          <img src="{{ post.header.teaser | relative_url }}" alt="{{ post.title }}">
+        </a>
+      {% endif %}
+      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      {% if post.excerpt %}
+        <p>{{ post.excerpt | markdownify | strip_html | truncate: 170 }}</p>
+      {% endif %}
     </div>
   {% endfor %}
 </div>
@@ -20,7 +28,15 @@ classes: wide
   {% assign entries = site.portfolio | where_exp: "item", "item.categories contains 'Modeling-Simulation'" | sort: "date" | reverse %}
   {% for post in entries %}
     <div class="portfolio-card">
-      {% include archive-single.html %}
+      {% if post.header.teaser %}
+        <a href="{{ post.url | relative_url }}">
+          <img src="{{ post.header.teaser | relative_url }}" alt="{{ post.title }}">
+        </a>
+      {% endif %}
+      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      {% if post.excerpt %}
+        <p>{{ post.excerpt | markdownify | strip_html | truncate: 170 }}</p>
+      {% endif %}
     </div>
   {% endfor %}
 </div>
@@ -30,8 +46,15 @@ classes: wide
   {% assign entries = site.portfolio | where_exp: "item", "item.categories contains 'image-data-analysis'" | sort: "date" | reverse %}
   {% for post in entries %}
     <div class="portfolio-card">
-      {% include archive-single.html %}
+      {% if post.header.teaser %}
+        <a href="{{ post.url | relative_url }}">
+          <img src="{{ post.header.teaser | relative_url }}" alt="{{ post.title }}">
+        </a>
+      {% endif %}
+      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      {% if post.excerpt %}
+        <p>{{ post.excerpt | markdownify | strip_html | truncate: 170 }}</p>
+      {% endif %}
     </div>
   {% endfor %}
 </div>
-
