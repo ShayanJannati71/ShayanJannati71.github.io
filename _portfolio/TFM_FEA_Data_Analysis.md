@@ -6,7 +6,7 @@ categories: [Modeling-Simulation]
 tags: [TFM, data analysis, particle tracking, MATLAB, Python, biomechanics, signal processing]
 
 header:
-  teaser: /assets/images/TFM_Data_Analysis.png
+  teaser: /assets/images/TFM_FEA_Data_Analysis.png
 ---
 
 ## Objective  
