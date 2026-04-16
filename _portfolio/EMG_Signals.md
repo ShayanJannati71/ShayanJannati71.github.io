@@ -10,6 +10,7 @@ header:
   overlay_image: /assets/images/EMG_Data_Acquisition.png
   overlay_filter: 0.5
   caption: "EMG-based locomotion classification and joint angle estimation pipeline"
+  teaser: /assets/images/EMG_Data_Acquisition.png
 ---
 
 ## Objectives  
