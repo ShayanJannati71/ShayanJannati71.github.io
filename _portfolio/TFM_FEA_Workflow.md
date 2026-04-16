@@ -1,11 +1,15 @@
 ---
-layout: single
+layout: splash
 title: "TFM–FEA Integrated Workflow for Quantifying Cellular Forces"
-excerpt: "Developed an experimental–computational pipeline combining dual-plane fluorescence imaging, particle tracking, and finite element analysis (FEA) to reconstruct stress fields on micropatterned substrates."
 categories: [Modeling-Simulation]
 tags: [TFM, FEA, fluorescence microscopy, MATLAB, Python, Abaqus, biomechanics]
 
+excerpt: "Developed an integrated experimental–computational pipeline combining dual-plane fluorescence imaging, particle tracking, and finite element analysis (FEA) to quantify cellular forces on micropatterned substrates."
+
 header:
+  overlay_image: /assets/images/TFM_FEA_Graphical_Abstract.png
+  overlay_filter: 0.4
+  caption: "Integrated TFM–FEA workflow for quantifying cellular forces on engineered substrates"
   teaser: /assets/images/TFM_FEA_Graphical_Abstract.png
 ---
 
