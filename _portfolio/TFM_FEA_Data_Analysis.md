@@ -41,10 +41,6 @@ To develop a robust data analysis pipeline for converting **fluorescence microsc
 *Figure 2. Displacement and velocity analysis of tracked bead motion. (A) Reference frame selection based on displacement magnitude. (B) Displacement evolution showing contraction and relaxation phases. (C) Velocity analysis highlighting peak contraction and relaxation rates.*  
 
 ---
-<video width="600" controls autoplay loop muted playsinline>
-  <source src="/assets/videos/Supplementary_Video_4.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
 
 ## Data Processing and Stress Reconstruction Workflow  
 
@@ -52,15 +48,7 @@ To develop a robust data analysis pipeline for converting **fluorescence microsc
 
 *Figure 3. Data processing workflow for displacement and stress analysis. Displacement fields from top and bottom planes are processed over time, subdivided into regions of interest (ROIs), and aggregated to extract representative displacement and stress metrics. Stress reconstruction is performed using finite element simulation outputs.*  
 
-<video width="600" controls autoplay loop muted playsinline>
-  <source src="/assets/videos/Supplementary_Video_11.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
 
-<video width="600" controls autoplay loop muted playsinline>
-  <source src="/assets/videos/Supplementary_Video_6.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
 ---
 
 ## Key Findings  
