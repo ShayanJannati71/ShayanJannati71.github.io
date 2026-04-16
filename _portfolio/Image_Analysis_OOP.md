@@ -1,10 +1,15 @@
 ---
+layout: splash
 title: "Automated Image Processing for Cardiac Cell Orientation Measurement"
-excerpt: "Developed an automated pipeline for quantifying cardiac cell alignment and orientation on micropatterned substrates."
 categories: [image-data-analysis]
-tags: [Image Analysis, Orientation, Cardiac Cells, Micropatterning, MATLAB, CellProfiler]
-layout: single
+tags: [image analysis, orientation, cardiac cells, micropatterning, MATLAB, CellProfiler]
+
+excerpt: "Developed an automated image processing pipeline to quantify alignment and orientation of cardiomyocytes on micropatterned substrates."
+
 header:
+  overlay_image: /assets/images/Logo_OOP.png
+  overlay_filter: 0.4
+  caption: "Automated quantification of cardiac cell alignment on micropatterned substrates"
   teaser: /assets/images/Logo_OOP.png
 ---
 
