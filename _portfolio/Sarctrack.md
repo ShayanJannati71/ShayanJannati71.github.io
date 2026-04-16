@@ -1,9 +1,15 @@
 ---
-layout: single
+layout: splash
 title: "Automated Sarcomere Tracking with SarcTrack"
-excerpt: "Automated analysis of sarcomere dynamics in hiPSC-CMs using double-wavelet fitting and signal tracking."
 categories: [image-data-analysis]
+tags: [sarcomere, image analysis, signal processing, cardiomyocytes, MATLAB, wavelet]
+
+excerpt: "Developed an automated pipeline to quantify sarcomere dynamics in hiPSC-derived cardiomyocytes using wavelet-based tracking and signal analysis."
+
 header:
+  overlay_image: /assets/images/Sarctrack_1.png
+  overlay_filter: 0.4
+  caption: "Automated tracking and analysis of sarcomere contraction dynamics in cardiomyocytes"
   teaser: /assets/images/Sarctrack_1.png
 ---
 
