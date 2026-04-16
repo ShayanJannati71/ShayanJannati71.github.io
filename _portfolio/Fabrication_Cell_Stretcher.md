@@ -1,15 +1,15 @@
 ---
+layout: splash
 title: "Biaxial Cell Stretcher for Live Cell Imaging and Mechanical Stimulation"
-excerpt: "Developing a cost-effective cell stretcher platform that mimics the dynamic microenvironment of heart, enabling controlled mechanical stimulation and real-time analysis."
-categories:
-  - fabrication
-tags:
-  - Capstone Project
-  - Cell Stretcher
-  - Biomechanics
-  - Live Cell Imaging
-  - Mechanical Stimulation
+categories: [fabrication]
+tags: [Cell Stretcher, Biomechanics, Live Cell Imaging, Mechanical Stimulation, Experimental Systems]
+
+excerpt: "Designed and developed a compact biaxial cell stretcher to replicate physiological mechanical environments and enable controlled stimulation with real-time live-cell imaging."
+
 header:
+  overlay_image: /assets/images/Logo_Cell_Stretcher.png
+  overlay_filter: 0.4
+  caption: "Biaxial cell stretcher platform for controlled mechanical stimulation and live-cell imaging"
   teaser: /assets/images/Logo_Cell_Stretcher.png
 ---
  
