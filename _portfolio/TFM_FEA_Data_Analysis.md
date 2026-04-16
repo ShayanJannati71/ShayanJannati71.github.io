@@ -42,7 +42,7 @@ To develop a robust data analysis pipeline for converting **fluorescence microsc
 
 ---
 <video width="600" controls autoplay loop muted playsinline>
-  <source src="/assets/videos/supplementary_video_4.mp4" type="video/mp4">
+  <source src="/assets/videos/Supplementary_Video_4.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -53,12 +53,12 @@ To develop a robust data analysis pipeline for converting **fluorescence microsc
 *Figure 3. Data processing workflow for displacement and stress analysis. Displacement fields from top and bottom planes are processed over time, subdivided into regions of interest (ROIs), and aggregated to extract representative displacement and stress metrics. Stress reconstruction is performed using finite element simulation outputs.*  
 
 <video width="600" controls autoplay loop muted playsinline>
-  <source src="/assets/videos/supplementary_video_5.mp4" type="video/mp4">
+  <source src="/assets/videos/Supplementary_Video_5.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
 <video width="600" controls autoplay loop muted playsinline>
-  <source src="/assets/videos/supplementary_video_6.mp4" type="video/mp4">
+  <source src="/assets/videos/Supplementary_Video_6.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 ---
