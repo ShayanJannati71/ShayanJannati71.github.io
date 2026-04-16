@@ -1,11 +1,15 @@
 ---
-layout: single
+layout: splash
 title: "Displacement Field Extraction and Stress Reconstruction from Fluorescence Imaging"
-excerpt: "Developed a data analysis pipeline to extract displacement fields from fluorescence microscopy and reconstruct stress distributions using particle tracking and finite element modeling."
 categories: [Modeling-Simulation]
 tags: [TFM, data analysis, particle tracking, MATLAB, Python, biomechanics, signal processing]
 
+excerpt: "Developed a computational pipeline to extract displacement fields from fluorescence microscopy and reconstruct stress distributions using particle tracking and finite element modeling."
+
 header:
+  overlay_image: /assets/images/TFM_FEA_Data_Analysis.png
+  overlay_filter: 0.4
+  caption: "Displacement field extraction and stress reconstruction workflow from fluorescence imaging data"
   teaser: /assets/images/TFM_FEA_Data_Analysis.png
 ---
 
