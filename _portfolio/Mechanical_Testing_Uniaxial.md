@@ -1,11 +1,16 @@
 ---
-layout: single
-title: "Hyperelastic Modeling of Soft Elastomeric Material"
-excerpt: "Characterizing soft elastomers using uniaxial testing and hyperelastic models."
-header:
-  teaser: /assets/images/Logo_Uniaxial_Testing.png
+layout: splash
+title: "Hyperelastic Modeling of Soft Elastomeric Materials"
 categories: [Modeling-Simulation]
-tags: [hyperelastic, uniaxial, Ogden, Neo-Hookean, elastomer]
+tags: [hyperelastic, uniaxial testing, Ogden model, Neo-Hookean, elastomer]
+
+excerpt: "Developed and validated hyperelastic material models for soft elastomers using uniaxial testing data to characterize nonlinear mechanical behavior."
+
+header:
+  overlay_image: /assets/images/Logo_Uniaxial_Testing.png
+  overlay_filter: 0.4
+  caption: "Hyperelastic characterization of soft elastomers using uniaxial testing and constitutive modeling"
+  teaser: /assets/images/Logo_Uniaxial_Testing.png
 ---
 
 ## Objective
