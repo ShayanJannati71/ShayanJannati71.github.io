@@ -1,10 +1,15 @@
 ---
-layout: single
+layout: splash
 title: "Impedance Control for Knee Prosthesis in Swing Phase"
 categories: [Modeling-Simulation]
 tags: [prosthesis, knee, impedance-control, PI-controller, swing-phase]
-excerpt: "Development of a multi-level impedance control strategy for robotic knee prostheses to improve performance during the swing phase of gait."
+
+excerpt: "Developed a multi-level impedance control strategy to improve stability and motion performance of robotic knee prostheses during the swing phase of gait."
+
 header:
+  overlay_image: /assets/images/Knee_Prosthesis_Workflow_Impedance_Control.png
+  overlay_filter: 0.4
+  caption: "Multi-level impedance control architecture for robotic knee prosthesis during swing phase"
   teaser: /assets/images/Knee_Prosthesis_Workflow_Impedance_Control.png
 ---
 
