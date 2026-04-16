@@ -1,10 +1,15 @@
 ---
+layout: splash
 title: "Fluorescent Beads Functionalized PDMS Substrate for Traction Force Microscopy"
-excerpt: "Developed protocols for embedding and functionalizing fluorescent beads in PDMS substrates to enable high-resolution traction force microscopy (TFM) imaging."
 categories: [fabrication]
-tags: [TFM, PDMS, Fluorescent Beads, Micropatterning, Substrate Fabrication, Imaging]
-layout: single
+tags: [TFM, PDMS, fluorescent beads, micropatterning, substrate fabrication, imaging]
+
+excerpt: "Developed and optimized fabrication protocols for embedding and functionalizing fluorescent beads in PDMS substrates to enable high-resolution traction force microscopy (TFM) measurements."
+
 header:
+  overlay_image: /assets/images/Logo_TFM.png
+  overlay_filter: 0.4
+  caption: "Fluorescent bead-functionalized PDMS substrate for high-resolution traction force microscopy"
   teaser: /assets/images/Logo_TFM.png
 ---
 
