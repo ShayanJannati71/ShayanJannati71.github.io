@@ -18,10 +18,12 @@ To develop an integrated workflow for quantifying **cell-generated forces on non
 
 
 
-<video width="800" controls autoplay loop muted playsinline>
-  <source src="/assets/video/Supplementary%20Video%201.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<div style="text-align: center;">
+  <video width="800" controls autoplay loop muted playsinline>
+    <source src="{{ '/assets/video/Supplementary_Video_1.mp4' | relative_url }}" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
 
 ---
 
