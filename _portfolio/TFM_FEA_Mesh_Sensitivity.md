@@ -64,13 +64,6 @@ Key Observations
 
 These trends confirm the importance of balancing accuracy vs efficiency in biomechanical simulations. 
 
-Thickness Discretization Study
-
-<img src="/assets/images/Mesh_Thickness.png" alt="Thickness discretization study" width="800"/>  
-
-
-
-Figure 3. Effect of thickness discretization on reconstructed stress fields. Increasing the number of elements improves stability until convergence is reached.
 
 Key Findings
 	•	Coarse thickness meshes caused stress variation across depth
