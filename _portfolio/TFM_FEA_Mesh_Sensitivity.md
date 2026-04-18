@@ -25,7 +25,7 @@ Simulation Framework
 	•	Finite element simulations were performed to reconstruct stress fields and strain energy density.
 
 
-  <img src="/assets/images/Mesh_Workflow.png" alt="Mesh sensitivity workflow" width="800"/>  
+  <img src="/assets/images/TFM_FEA_Mesh_Generation.png" alt="Mesh sensitivity workflow" width="800"/>  
 
   Figure 1. Mesh sensitivity analysis workflow. Finite element simulations were performed across multiple mesh densities and thickness discretizations. Stress convergence and computational cost were evaluated to determine the optimal mesh configuration.
 
@@ -38,7 +38,16 @@ The following parameters were systematically varied:
 	•	Geometric nonlinearity (NLgeom): Enabled vs disabled
 
 
-  <img src="/assets/images/Mesh_Convergence.png" alt="Stress convergence plots" width="800"/>  
+  <img src="/assets/images/TFM_FEA_Mesh_Sensitivity_1.png" alt="Stress convergence plots" width="800"/>  
+
+Figure 2. Stress convergence analysis across different mesh densities. Coarse meshes produce noisy stress distributions, while refined meshes yield smooth and stable solutions.
+
+<img src="/assets/images/TFM_FEA_Mesh_Sensitivity_2.png" alt="Stress convergence plots" width="800"/>  
+
+Figure 2. Stress convergence analysis across different mesh densities. Coarse meshes produce noisy stress distributions, while refined meshes yield smooth and stable solutions.
+
+
+<img src="/assets/images/TFM_FEA_Noise_Analysis.png" alt="Stress convergence plots" width="800"/>  
 
 Figure 2. Stress convergence analysis across different mesh densities. Coarse meshes produce noisy stress distributions, while refined meshes yield smooth and stable solutions.
 
