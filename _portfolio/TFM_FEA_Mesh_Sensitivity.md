@@ -135,14 +135,3 @@ These results highlight the importance of balancing **accuracy and computational
 - Integration with experimental biomechanics (TFM data)  
 
 ---
-
-## Impact  
-
-This work enables **robust and reliable stress quantification** in TFM–FEA workflows and provides a generalizable methodology for:
-
-- Soft material simulation  
-- Biomechanical modeling  
-- Medical device design  
-- Tissue engineering platforms  
-
-By optimizing mesh parameters, this study bridges **experimental imaging and computational mechanics**, enabling accurate interpretation of complex biological force systems.
