@@ -10,7 +10,7 @@ header:
   overlay_image: /assets/images/Mesh_Sensitivity_Analysis.png
   overlay_filter: 0.4
   caption: "Mesh sensitivity analysis for stress reconstruction in micropatterned substrates"
-  teaser: /assets/images/Mesh_Sensitivity_Analysis.png
+  teaser: /assets/images/TFM_FEA_Mesh_Generation.png
 ---
 
 Objective
