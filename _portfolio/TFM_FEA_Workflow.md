@@ -16,6 +16,9 @@ header:
 ## Objective  
 To develop an integrated workflow for quantifying **cell-generated forces on non-planar micropatterned substrates** by combining **traction force microscopy (TFM)** with **finite element analysis (FEA)**.
 
+<img src="/assets/images/TFM_FEA_Graphical_Abstract.png" alt="TFM-FEA graphical abstract" width="700"/>  
+*Figure 2: Overview of the integrated experimental–computational framework for quantifying cellular mechanics on micropatterned substrates.*  
+
 
 <figure style="text-align: center;">
   <video width="900" autoplay loop muted playsinline preload="auto">
@@ -27,6 +30,16 @@ To develop an integrated workflow for quantifying **cell-generated forces on non
   </figcaption>
 </figure>
 
+
+<figure style="text-align: center;">
+  <video width="900" autoplay loop muted playsinline preload="auto">
+    <source src="{{ '/assets/video/Supplementary_Video_5.mp4' | relative_url }}" type="video/mp4">
+  </video>
+
+  <figcaption style="display: block; margin-top: 10px; text-align: center;">
+    Normal stress components in three directions during a single beating cycle of cardiomyocytes, computed using a TFM–FEA workflow.
+  </figcaption>
+</figure>
 ---
 
 ## Experimental Setup  
@@ -36,7 +49,7 @@ To develop an integrated workflow for quantifying **cell-generated forces on non
 - Finite element analysis was used to reconstruct **stress fields** and **strain energy density**.  
 
 <img src="/assets/images/TFM_FEA_Imaging_Workflow.png" alt="Integrated TFM-FEA workflow" width="700"/>  
-*Figure 1: Integrated workflow combining dual-plane imaging, particle tracking, displacement interpolation, and finite element modeling for stress reconstruction.*  
+*Figure 2: Integrated workflow combining dual-plane imaging, particle tracking, displacement interpolation, and finite element modeling for stress reconstruction.*  
 
 ---
 
@@ -44,9 +57,6 @@ To develop an integrated workflow for quantifying **cell-generated forces on non
 - Developed a robust **TFM–FEA pipeline** for force quantification on non-planar substrates.  
 - Dual-plane imaging improved displacement reconstruction across **micropatterned geometries**.  
 - The workflow enabled spatial mapping of **stress distribution** and **strain energy density** in engineered substrates.  
-
-<img src="/assets/images/TFM_FEA_Graphical_Abstract.png" alt="TFM-FEA graphical abstract" width="700"/>  
-*Figure 2: Overview of the integrated experimental–computational framework for quantifying cellular mechanics on micropatterned substrates.*  
 
 ---
 
