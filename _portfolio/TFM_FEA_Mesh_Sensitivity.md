@@ -25,6 +25,11 @@ Simulation Framework
 	•	Finite element simulations were performed to reconstruct stress fields and strain energy density.
 
 
+  <img src="/assets/images/TFM_FEA_Bead_Concentration.png" alt="Mesh sensitivity workflow" width="800"/>  
+
+  Figure 1. Mesh sensitivity analysis workflow. Finite element simulations were performed across multiple mesh densities and thickness discretizations. Stress convergence and computational cost were evaluated to determine the optimal mesh configuration.
+
+
   <img src="/assets/images/TFM_FEA_Mesh_Generation.png" alt="Mesh sensitivity workflow" width="800"/>  
 
   Figure 1. Mesh sensitivity analysis workflow. Finite element simulations were performed across multiple mesh densities and thickness discretizations. Stress convergence and computational cost were evaluated to determine the optimal mesh configuration.
