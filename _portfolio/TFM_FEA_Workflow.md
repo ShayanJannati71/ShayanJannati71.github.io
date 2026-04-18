@@ -16,6 +16,13 @@ header:
 ## Objective  
 To develop an integrated workflow for quantifying **cell-generated forces on non-planar micropatterned substrates** by combining **traction force microscopy (TFM)** with **finite element analysis (FEA)**.
 
+
+
+<video width="800" controls autoplay loop muted playsinline>
+  <source src="/assets/video/Supplementary%20Video%201.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 ---
 
 ## Experimental Setup  
