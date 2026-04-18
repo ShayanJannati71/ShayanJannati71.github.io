@@ -20,10 +20,10 @@ To develop an integrated workflow for quantifying **cell-generated forces on non
 <figure style="text-align: center;">
   <video width="900" autoplay loop muted playsinline preload="auto">
     <source src="{{ '/assets/video/Supplementary_Video_1.mp4' | relative_url }}" type="video/mp4">
-    Your browser does not support the video tag.
   </video>
-  <figcaption>
-    Supplementary Video 1.
+
+  <figcaption style="display: block; margin-top: 10px; text-align: center;">
+    Dual-plane fluorescence imaging of beating cardiomyocytes cultured on a micropatterned substrate.
   </figcaption>
 </figure>
 
