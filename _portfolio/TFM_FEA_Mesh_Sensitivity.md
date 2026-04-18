@@ -4,7 +4,7 @@ title: "Finite Element Mesh Sensitivity Analysis for Accurate Stress Reconstruct
 categories: [Modeling-Simulation]
 tags: [FEA, Abaqus, mesh sensitivity, biomechanics, TFM, computational modeling, simulation optimization]
 
-excerpt: "Performed mesh sensitivity analysis to optimize finite element discretization for accurate and computationally efficient stress reconstruction in micropatterned TFM substrates."
+excerpt: "Performed a systematic mesh sensitivity analysis to optimize finite element discretization for accurate and computationally efficient stress reconstruction in micropatterned TFM substrates."
 
 header:
   overlay_image: /assets/images/Mesh_Sensitivity_Analysis.png
@@ -15,28 +15,32 @@ header:
 
 ## Objective  
 
-To determine the optimal finite element mesh configuration for accurate and computationally efficient reconstruction of stress fields in micropatterned PDMS substrates used in traction force microscopy (TFM–FEA workflow).
+To determine the optimal finite element mesh configuration for accurate and computationally efficient reconstruction of stress fields in micropatterned PDMS substrates within a TFM–FEA workflow.
 
 ---
 
 ## Simulation Framework  
 
-- Micropatterned substrate geometry (400 × 400 × 50 µm) was generated and imported into Abaqus.  
-- Region of interest (ROI) defined as **200 × 200 × 50 µm** for localized stress analysis.  
-- Displacement fields (from fluorescence imaging) were mapped as **nodal boundary conditions**.  
-- Finite element simulations were performed to reconstruct **stress fields and strain energy density**.  
+- Micropatterned substrate geometry (400 × 400 × 50 µm) was modeled and imported into **Abaqus**.  
+- Region of interest (ROI) defined as **200 × 200 × 50 µm** for localized analysis.  
+- Displacement fields from fluorescence imaging were applied as **nodal boundary conditions**.  
+- Finite element simulations were used to reconstruct **stress fields and strain energy density**.  
 
 ---
 
 ## Mesh Sensitivity Workflow  
 
-<img src="/assets/images/TFM_FEA_Bead_Concentration.png" alt="Mesh sensitivity workflow" width="800"/>  
+<img src="/assets/images/TFM_FEA_Bead_Concentration.png" alt="Bead analysis workflow" width="800"/>  
 
-*Figure 1. Mesh sensitivity analysis workflow. Finite element simulations were performed across multiple mesh densities and thickness discretizations. Stress convergence and computational cost were evaluated to determine the optimal mesh configuration.*
+<p style="font-size:0.9em; text-align:center;">
+<strong>Figure 1.</strong> Experimental and simulated analysis of fluorescent bead characteristics used for displacement tracking. Bead dispersion, size, and intensity distributions were evaluated to validate tracking parameters and ensure robust displacement field reconstruction.
+</p>
 
 <img src="/assets/images/TFM_FEA_Mesh_Generation.png" alt="Mesh generation and refinement" width="800"/>  
 
-*Figure 2. Mesh generation and refinement strategy. Multiple mesh densities were generated to evaluate convergence behavior and numerical stability.*
+<p style="font-size:0.9em; text-align:center;">
+<strong>Figure 2.</strong> Micropatterned substrate geometry and finite element mesh generation. Mesh refinement was performed with varying element densities and through-thickness discretization to evaluate convergence behavior.
+</p>
 
 ---
 
@@ -54,20 +58,32 @@ The following parameters were systematically varied:
 
 <img src="/assets/images/TFM_FEA_Mesh_Sensitivity_1.png" alt="Stress convergence plots" width="800"/>  
 
-<img src="/assets/images/TFM_FEA_Mesh_Sensitivity_2.png" alt="Stress convergence plots" width="800"/>  
+<p style="font-size:0.9em; text-align:center;">
+<strong>Figure 3.</strong> Mesh sensitivity analysis of maximum principal stress under a circular load (500 Pa). Stress distributions and profiles were evaluated along multiple directions for different mesh densities to assess convergence and computational cost.
+</p>
+
+<img src="/assets/images/TFM_FEA_Mesh_Sensitivity_2.png" alt="Thickness and NLgeom analysis" width="800"/>  
+
+<p style="font-size:0.9em; text-align:center;">
+<strong>Figure 4.</strong> Effect of through-thickness discretization and geometric nonlinearity on stress reconstruction. Convergence behavior and stress accuracy were analyzed across different mesh configurations.
+</p>
 
 <img src="/assets/images/TFM_FEA_Noise_Analysis.png" alt="Noise analysis in stress fields" width="800"/>  
 
-*Figure 3. Stress convergence analysis across different mesh densities. Coarse meshes produce noisy stress distributions, while refined meshes yield smooth and stable solutions.*
+<p style="font-size:0.9em; text-align:center;">
+<strong>Figure 5.</strong> Noise analysis under cell-free conditions. Displacement and strain energy fields were evaluated to quantify baseline noise and validate robustness of the TFM–FEA pipeline.
+</p>
+
+---
 
 ### Key Observations  
 
 - Coarse meshes introduced **significant fluctuations in stress fields**  
-- Mesh densities above ~0.09 µm⁻² produced **smooth and consistent results**  
+- Mesh densities above ~0.09 µm⁻² produced **smooth and stable results**  
 - No meaningful improvement observed beyond **0.25 µm⁻²**  
-- Over-refined meshes significantly increased **computational time**  
+- Over-refined meshes significantly increased **computational cost**  
 
-These trends highlight the importance of balancing **accuracy and computational efficiency** in biomechanical simulations.  
+These results highlight the importance of balancing **accuracy and computational efficiency** in biomechanical simulations.  
 
 ---
 
@@ -84,29 +100,29 @@ These trends highlight the importance of balancing **accuracy and computational 
 ## Effect of Geometric Nonlinearity  
 
 - Maximum deformation ≈ **0.1 µm (~5% strain)**  
-- Simulations with and without NLgeom showed **nearly identical results**  
+- Simulations with and without NLgeom showed **negligible differences**  
 - Enabling NLgeom significantly increased **computational cost**  
 
-👉 Therefore, a **linear (small-strain) formulation** was selected for all simulations.  
+👉 A **linear (small-strain) formulation** was therefore adopted.  
 
 ---
 
 ## Key Findings  
 
-- Optimal mesh density identified as **0.25 µm⁻²**  
+- Optimal mesh density: **0.25 µm⁻²**  
 - Minimum thickness discretization: **10 elements**  
-- Stress reconstruction accuracy strongly depends on **mesh resolution**  
-- Computational cost increases significantly beyond optimal mesh density  
-- Linear formulation is sufficient for **small-strain biomechanical systems**  
+- Stress reconstruction strongly depends on **mesh resolution**  
+- Computational cost increases beyond optimal refinement  
+- Linear formulation is sufficient for **small-strain conditions**  
 
 ---
 
 ## Outcome  
 
-- Established a validated framework for **mesh-independent stress reconstruction**  
-- Improved computational efficiency without compromising accuracy  
-- Enabled reliable interpretation of **cell-generated stress fields**  
-- Provided guidelines for **finite element modeling of soft biomaterials**  
+- Established a framework for **mesh-independent stress reconstruction**  
+- Improved computational efficiency without sacrificing accuracy  
+- Enabled reliable quantification of **cell-generated forces**  
+- Provided guidelines for **FEA modeling of soft biomaterials**  
 
 ---
 
@@ -122,11 +138,11 @@ These trends highlight the importance of balancing **accuracy and computational 
 
 ## Impact  
 
-This work ensures **robust and reliable stress quantification** in TFM–FEA workflows and provides a generalizable methodology for:
+This work enables **robust and reliable stress quantification** in TFM–FEA workflows and provides a generalizable methodology for:
 
 - Soft material simulation  
 - Biomechanical modeling  
 - Medical device design  
 - Tissue engineering platforms  
 
-By systematically optimizing mesh parameters, this study bridges **experimental imaging and computational mechanics**, enabling accurate interpretation of complex biological force systems.
+By optimizing mesh parameters, this study bridges **experimental imaging and computational mechanics**, enabling accurate interpretation of complex biological force systems.
